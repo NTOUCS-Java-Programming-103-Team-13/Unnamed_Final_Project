@@ -40,6 +40,8 @@ youtube-dl-wrapper 為使用 Java 程式語言設計的 youtube-dl 圖形介面�
 * [jakeogh/youtube-dl-wrapper](https://github.com/jakeogh/youtube-dl-wrapper)
 * [fredyw/win-youtube-dl](https://github.com/fredyw/win-youtube-dl)
     * 根據開發者說明理論上 Mac、GNU/Linux 平台也能執行，但是目前只有提供 Windows 平台的程式
+* [3D Youtube Downloader](http://yd.3dyd.com/)
+    * 專有軟體
 
 ## 軟體開發目標
 ### 支援國際化(I18N)
