@@ -7,7 +7,7 @@
 youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加入我的最愛） 1355 人建立分支(fork)，218 個貢獻者（有更改過代碼），6238 個版本提交，於[<del>潮到出水</del>人氣版本倉庫排名](https://github.com/trending)中的總排名第五名，於 [Python 程式語言的版本倉庫中](https://github.com/trending?l=python)排名第一（資料擷取於 2014/11/27），是一個非常有名的釋出到公眾領域(Public Domain)的自由軟體專案。
 
 ## youtube-dl-wrapper 是什麼？
-youtube-dl-wrapper 為使用 Java 程式語言設計的 youtube-dl 圖形介面包裝程式
+youtube-dl-wrapper 為使用 Java 程式語言設計的 youtube-dl 圖形介面包裝程式，企圖讓 youtube-dl 的操作對使用者更加友善。
 
 ## 作者<br>Authors
 國立台灣海洋大學資訊工程學系 103 學年度《Java 程式設計》課程期末專案第 13 組組員：
