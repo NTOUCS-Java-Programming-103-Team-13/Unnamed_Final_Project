@@ -17,6 +17,8 @@ youtube-dl-wrapper 為使用 Java 程式語言設計的 youtube-dl 圖形介面�
 * [林博仁](http://www.github.com/Vdragon)
 * [曾鐙毅](http://www.github.com/kshs31711)
 
+其他專案貢獻者請參考本專案 [Git 版本倉庫的版本提交紀錄](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/commits)。
+
 ## 智慧財產授權條款
 本智慧財產已釋出至公眾領域(Public Domain)，其等同以 [WTFPL 授權條款](http://www.wtfpl.net/)釋出：
 
