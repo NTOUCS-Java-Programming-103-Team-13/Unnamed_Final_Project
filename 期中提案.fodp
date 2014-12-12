@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:creation-date>2009-04-16T11:32:32.860000000</meta:creation-date><meta:editing-duration>PT2H57M10S</meta:editing-duration><meta:editing-cycles>28</meta:editing-cycles><meta:generator>LibreOffice/4.3.4.1$Linux_x86 LibreOffice_project/430m0$Build-1</meta:generator><dc:date>2014-12-01T02:38:30.561383283</dc:date><dc:description>本文件授權條款為 WTFPL</dc:description><meta:keyword>Java</meta:keyword><meta:keyword>youtube</meta:keyword><meta:keyword>youtube-dl</meta:keyword><meta:keyword>github</meta:keyword><meta:keyword>download</meta:keyword><dc:title>Java 程式設計課程103年度期末專案第 13 組期中提案—youtube-dl-wrapper </dc:title><dc:creator>Java 程式設計課程103年度期末專案第 13 組</dc:creator><meta:document-statistic meta:object-count="115"/></office:meta>
+ <office:meta><meta:creation-date>2009-04-16T11:32:32.860000000</meta:creation-date><meta:editing-duration>PT2H58M7S</meta:editing-duration><meta:editing-cycles>29</meta:editing-cycles><meta:generator>LibreOffice/4.3.4.1$Linux_x86 LibreOffice_project/430m0$Build-1</meta:generator><dc:date>2014-12-12T22:26:17.343343132</dc:date><dc:description>本文件授權條款為 WTFPL</dc:description><meta:keyword>Java</meta:keyword><meta:keyword>youtube</meta:keyword><meta:keyword>youtube-dl</meta:keyword><meta:keyword>github</meta:keyword><meta:keyword>download</meta:keyword><dc:title>Java 程式設計課程103年度期末專案第 13 組期中提案—youtube-dl-wrapper </dc:title><dc:creator>Java 程式設計課程103年度期末專案第 13 組</dc:creator><meta:document-statistic meta:object-count="117"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">42027</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">-6825</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">39314</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">20652</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">39313</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">20651</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -29,7 +29,7 @@
      <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
      <config:config-item config:name="RulerIsVisible" config:type="boolean">true</config:config-item>
      <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
-     <config:config-item config:name="SelectedPage" config:type="short">0</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">9</config:config-item>
      <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">false</config:config-item>
@@ -37,10 +37,10 @@
      <config:config-item config:name="EditModeStandard" config:type="int">0</config:config-item>
      <config:config-item config:name="EditModeNotes" config:type="int">0</config:config-item>
      <config:config-item config:name="EditModeHandout" config:type="int">1</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-323</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-8143</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">44275</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">21609</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-8985</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-441</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">29656</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">40074</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">500</config:config-item>
@@ -1290,22 +1290,22 @@
   <style:handout-master presentation:presentation-page-layout-name="AL0T26" style:page-layout-name="PM0" draw:style-name="dp2">
    <draw:frame draw:style-name="gr1" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="2.898cm"/>
@@ -1352,19 +1352,22 @@
    <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
    <draw:frame presentation:style-name="pr1" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.131cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr1" draw:text-style-name="P3" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.576cm" svg:y="19.131cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.076cm" svg:y="19.131cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -1402,24 +1405,27 @@
     <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
     </draw:frame>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
     <draw:frame presentation:style-name="pr2" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr3" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr3" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1470,17 +1476,17 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr4" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.447cm" svg:x="1.4cm" svg:y="19.129cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr4" draw:text-style-name="P3" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.447cm" svg:x="9.575cm" svg:y="19.129cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr4" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.447cm" svg:x="20.075cm" svg:y="19.129cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -1490,22 +1496,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr5" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr5" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr6" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr6" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1777,17 +1783,17 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr7" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.129cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr7" draw:text-style-name="P3" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.575cm" svg:y="19.129cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr7" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.075cm" svg:y="19.129cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -1797,22 +1803,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr8" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr8" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr9" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr9" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;編號&gt;</text:page-number></text:span><text:page-number>&lt;編號&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1829,7 +1835,7 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.2cm" svg:height="5.957cm" svg:x="1.3cm" svg:y="0.543cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p>Java 程式設計課程103年度<text:line-break/>期末專案第 13 組期中提案<text:line-break/>youtube-dl-wrapper </text:p>
+      <text:p>Java 程式設計課程103年度<text:line-break/>期末專案第 13 組期中提案<text:line-break/>youtube-dl-helper </text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr11" draw:text-style-name="P5" draw:layer="layout" svg:width="14.7cm" svg:height="12.179cm" svg:x="1.3cm" svg:y="6.821cm" presentation:class="subtitle" presentation:user-transformed="true">
@@ -1882,7 +1888,7 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-header>
-        <text:p text:style-name="P5"><text:span text:style-name="T4">什麼是 </text:span><text:span text:style-name="T4">youtube-dl</text:span><text:span text:style-name="T5">-wrapper</text:span><text:span text:style-name="T6">？</text:span></text:p>
+        <text:p text:style-name="P5"><text:span text:style-name="T4">什麼是 </text:span><text:span text:style-name="T4">youtube-dl</text:span><text:span text:style-name="T5">-helper</text:span><text:span text:style-name="T6">？</text:span></text:p>
         <text:list>
          <text:list-item>
           <text:p text:style-name="P5"><text:a xlink:href="http://rg3.github.io/youtube-dl/" xlink:type="simple">youtube-dl</text:a> 為由 Python 程式語言開發， <text:a xlink:href="http://youtube.com/" xlink:type="simple">Youtube</text:a> 與<text:a xlink:href="http://rg3.github.io/youtube-dl/supportedsites.html" xlink:type="simple">更多線上影音網站</text:a>多媒體的命令列介面下載程式，可以根據不同的命令列參數指定要下載的影音格式與其字幕。</text:p>
@@ -6052,7 +6058,7 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-header>
-        <text:p text:style-name="P5"><text:span text:style-name="T4">什麼是 </text:span><text:span text:style-name="T4">youtube-dl</text:span><text:span text:style-name="T5">-wrapper</text:span><text:span text:style-name="T6">？</text:span></text:p>
+        <text:p text:style-name="P5"><text:span text:style-name="T4">什麼是 </text:span><text:span text:style-name="T4">youtube-dl</text:span><text:span text:style-name="T5">-helper</text:span><text:span text:style-name="T6">？</text:span></text:p>
         <text:list>
          <text:list-item>
           <text:p text:style-name="P5">youtube-dl 於 GitHub Git 版本倉庫托管網站上被 7029 人 star（加入我的最愛），1355 人建立分支(fork)，具有218 個貢獻者（有更改過代碼），6238 次版本提交(commit)，於<text:a xlink:href="https://github.com/trending" xlink:type="simple">人氣版本倉庫排名</text:a>中的總排名第五名，於 <text:a xlink:href="https://github.com/trending?l=python" xlink:type="simple">Python 程式語言的版本倉庫中</text:a>排名第一（資料擷取於 2014/11/27），是一個非常有名的釋出到公眾領域(Public Domain)的自由軟體專案。</text:p>
@@ -14394,7 +14400,7 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-header>
-        <text:p text:style-name="P5"><text:span text:style-name="T4">youtu</text:span><text:span text:style-name="T8">be-dl-wrapper</text:span></text:p>
+        <text:p text:style-name="P5"><text:span text:style-name="T4">youtu</text:span><text:span text:style-name="T8">be-dl-helper</text:span></text:p>
         <text:list>
          <text:list-item>
           <text:p text:style-name="P5">我們此次期末專題決定以 Java 來設計 youtube-dl 的圖形化介面 wrapper 程式</text:p>
@@ -14422,6 +14428,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="專案開發所需技術" draw:style-name="dp3" draw:master-page-name="LushGreen" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.2cm" svg:height="2.4cm" svg:x="1.4cm" svg:y="0.8cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>專案開發所需技術</text:p>
@@ -14479,6 +14486,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="軟體介面設計雛型" draw:style-name="dp3" draw:master-page-name="LushGreen" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.2cm" svg:height="2.4cm" svg:x="1.4cm" svg:y="0.8cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>軟體介面設計雛型</text:p>
@@ -17080,6 +17088,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="工作分配" draw:style-name="dp3" draw:master-page-name="LushGreen" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.2cm" svg:height="2.4cm" svg:x="1.4cm" svg:y="0.8cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>工作分配</text:p>
@@ -17131,6 +17140,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="時程規劃" draw:style-name="dp3" draw:master-page-name="LushGreen" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.2cm" svg:height="2.4cm" svg:x="1.4cm" svg:y="0.8cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>時程規劃</text:p>
@@ -17687,116 +17697,103 @@
        AAIBABMAAAAJAFhURVhUX0VPQwMAAAAAAAAAAAIBABMAAAAJAFhURVhUX0VPQwQAAAAAAAAA
        AAIBABMAAAAJAFhURVhUX0VPVwQAAAAAAAAAAAIBABMAAAAJAFhURVhUX0VPQwUAAAAAAAAA
        AAIBABMAAAAJAFhURVhUX0VPTAAAAAAAAAAAAAIBABMAAAAJAFhURVhUX0VPUAAAAAAAAAAA
-       AAIBAB4AAAAUAFhURVhUX1BBSU5UU0hBUEVfRU5EAAAAAAAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgA+AAAAAQAHANkCAADYEQAA2QIAAK0WAADYAgAArRYAANcCAACtFgAA
-       1wIAANgRAADYAgAA2BEAANkCAADYEQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgA+AAAAAQAHAEQRAADYEQAARBEAAK0WAABDEQAArRYAAEIRAACtFgAAQhEAANgRAABDEQAA
-       2BEAAEQRAADYEQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANgC
-       AADXEQAAQxEAANcRAABDEQAA2BEAAEMRAADZEQAA2AIAANkRAADYAgAA2BEAANgCAADXEQAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEQRAADYEQAARBEAAEAd
-       AABDEQAAQB0AAEIRAABAHQAAQhEAANgRAABDEQAA2BEAAEQRAADYEQAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANYnAADYEQAA1icAAEAdAADVJwAAQB0AANQn
-       AABAHQAA1CcAANgRAADVJwAA2BEAANYnAADYEQAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgA+AAAAAQAHAEMRAADXEQAA1ScAANcRAADVJwAA2BEAANUnAADZEQAAQxEAANkR
-       AABDEQAA2BEAAEMRAADXEQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAA
-       AQAHANYnAADYEQAA1icAAEAdAADVJwAAQB0AANQnAABAHQAA1CcAANgRAADVJwAA2BEAANYn
-       AADYEQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAGg+AADYEQAA
-       aD4AAEAdAABnPgAAQB0AAGY+AABAHQAAZj4AANgRAABnPgAA2BEAAGg+AADYEQAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANUnAADXEQAAZz4AANcRAABnPgAA
-       2BEAAGc+AADZEQAA1ScAANkRAADVJwAA2BEAANUnAADXEQAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgA+AAAAAQAHAGg+AADYEQAAaD4AAEAdAABnPgAAQB0AAGY+AABAHQAA
-       Zj4AANgRAABnPgAA2BEAAGg+AADYEQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgA+AAAAAQAHAPpUAADYEQAA+lQAAEAdAAD5VAAAQB0AAPhUAABAHQAA+FQAANgRAAD5VAAA
-       2BEAAPpUAADYEQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAGc+
-       AADXEQAA+VQAANcRAAD5VAAA2BEAAPlUAADZEQAAZz4AANkRAABnPgAA2BEAAGc+AADXEQAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAPpUAADYEQAA+lQAAEAd
-       AAD5VAAAQB0AAPhUAABAHQAA+FQAANgRAAD5VAAA2BEAAPpUAADYEQAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAIlrAADYEQAAiWsAAEAdAACIawAAQB0AAIdr
-       AABAHQAAh2sAANgRAACIawAA2BEAAIlrAADYEQAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgA+AAAAAQAHAPlUAADXEQAAiGsAANcRAACIawAA2BEAAIhrAADZEQAA+VQAANkR
-       AAD5VAAA2BEAAPlUAADXEQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAA
-       AQAHANkCAACtFgAA2QIAAEAdAADYAgAAQB0AANcCAABAHQAA1wIAAK0WAADYAgAArRYAANkC
-       AACtFgAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEQRAACtFgAA
-       RBEAAEAdAABDEQAAQB0AAEIRAABAHQAAQhEAAK0WAABDEQAArRYAAEQRAACtFgAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANgCAACsFgAAQxEAAKwWAABDEQAA
-       rRYAAEMRAACuFgAA2AIAAK4WAADYAgAArRYAANgCAACsFgAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgA+AAAAAQAHANkCAABAHQAA2QIAADUoAADYAgAANSgAANcCAAA1KAAA
-       1wIAAEAdAADYAgAAQB0AANkCAABAHQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgA+AAAAAQAHAEQRAABAHQAARBEAADUoAABDEQAANSgAAEIRAAA1KAAAQhEAAEAdAABDEQAA
-       QB0AAEQRAABAHQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANgC
-       AAA/HQAAQxEAAD8dAABDEQAAQB0AAEMRAABBHQAA2AIAAEEdAADYAgAAQB0AANgCAAA/HQAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEQRAABAHQAARBEAADUo
-       AABDEQAANSgAAEIRAAA1KAAAQhEAAEAdAABDEQAAQB0AAEQRAABAHQAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAIlrAABAHQAAiWsAADUoAACIawAANSgAAIdr
-       AAA1KAAAh2sAAEAdAACIawAAQB0AAIlrAABAHQAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgA+AAAAAQAHAEMRAAA/HQAAiGsAAD8dAACIawAAQB0AAIhrAABBHQAAQxEAAEEd
-       AABDEQAAQB0AAEMRAAA/HQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAA
-       AQAHANkCAAA1KAAA2QIAACozAADYAgAAKjMAANcCAAAqMwAA1wIAADUoAADYAgAANSgAANkC
-       AAA1KAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEQRAAA1KAAA
-       RBEAACozAABDEQAAKjMAAEIRAAAqMwAAQhEAADUoAABDEQAANSgAAEQRAAA1KAAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANgCAAA0KAAAQxEAADQoAABDEQAA
-       NSgAAEMRAAA2KAAA2AIAADYoAADYAgAANSgAANgCAAA0KAAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgA+AAAAAQAHAEQRAAA1KAAARBEAACozAABDEQAAKjMAAEIRAAAqMwAA
-       QhEAADUoAABDEQAANSgAAEQRAAA1KAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgA+AAAAAQAHAIlrAAA1KAAAiWsAACozAACIawAAKjMAAIdrAAAqMwAAh2sAADUoAACIawAA
-       NSgAAIlrAAA1KAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEMR
-       AAA0KAAAiGsAADQoAACIawAANSgAAIhrAAA2KAAAQxEAADYoAABDEQAANSgAAEMRAAA0KAAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANkCAAAqMwAA2QIAAL05
-       AADYAgAAvTkAANcCAAC9OQAA1wIAACozAADYAgAAKjMAANkCAAAqMwAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEQRAAAqMwAARBEAAL05AABDEQAAvTkAAEIR
-       AAC9OQAAQhEAACozAABDEQAAKjMAAEQRAAAqMwAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgA+AAAAAQAHANgCAAApMwAAQxEAACkzAABDEQAAKjMAAEMRAAArMwAA2AIAACsz
-       AADYAgAAKjMAANgCAAApMwAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAA
-       AQAHAEQRAAAqMwAARBEAAL05AABDEQAAvTkAAEIRAAC9OQAAQhEAACozAABDEQAAKjMAAEQR
-       AAAqMwAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAIlrAAAqMwAA
-       iWsAAL05AACIawAAvTkAAIdrAAC9OQAAh2sAACozAACIawAAKjMAAIlrAAAqMwAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEMRAAApMwAAiGsAACkzAACIawAA
-       KjMAAIhrAAArMwAAQxEAACszAABDEQAAKjMAAEMRAAApMwAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgA+AAAAAQAHANkCAAC9OQAA2QIAAExGAADYAgAATEYAANcCAABMRgAA
-       1wIAAL05AADYAgAAvTkAANkCAAC9OQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgA+AAAAAQAHAEQRAAC9OQAARBEAAExGAABDEQAATEYAAEIRAABMRgAAQhEAAL05AABDEQAA
-       vTkAAEQRAAC9OQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANgC
-       AAC8OQAAQxEAALw5AABDEQAAvTkAAEMRAAC+OQAA2AIAAL45AADYAgAAvTkAANgCAAC8OQAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEQRAAC9OQAARBEAAExG
-       AABDEQAATEYAAEIRAABMRgAAQhEAAL05AABDEQAAvTkAAEQRAAC9OQAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANYnAAC9OQAA1icAAExGAADVJwAATEYAANQn
-       AABMRgAA1CcAAL05AADVJwAAvTkAANYnAAC9OQAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgA+AAAAAQAHAEMRAAC8OQAA1ScAALw5AADVJwAAvTkAANUnAAC+OQAAQxEAAL45
-       AABDEQAAvTkAAEMRAAC8OQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAA
-       AQAHANYnAAC9OQAA1icAAExGAADVJwAATEYAANQnAABMRgAA1CcAAL05AADVJwAAvTkAANYn
-       AAC9OQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAPpUAAC9OQAA
-       +lQAAExGAAD5VAAATEYAAPhUAABMRgAA+FQAAL05AAD5VAAAvTkAAPpUAAC9OQAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANUnAAC8OQAA+VQAALw5AAD5VAAA
-       vTkAAPlUAAC+OQAA1ScAAL45AADVJwAAvTkAANUnAAC8OQAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgA+AAAAAQAHAPpUAAC9OQAA+lQAABRQAAD5VAAAFFAAAPhUAAAUUAAA
-       +FQAAL05AAD5VAAAvTkAAPpUAAC9OQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgA+AAAAAQAHAPlUAAATUAAAiGsAABNQAACIawAAFFAAAIhrAAAVUAAA+VQAABVQAAD5VAAA
-       FFAAAPlUAAATUAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAIlr
-       AAC9OQAAiWsAABRQAACIawAAFFAAAIdrAAAUUAAAh2sAAL05AACIawAAvTkAAIlrAAC9OQAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAPlUAAC8OQAAiGsAALw5
-       AACIawAAvTkAAIhrAAC+OQAA+VQAAL45AAD5VAAAvTkAAPlUAAC8OQAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANkCAABMRgAA2QIAABRQAADYAgAAFFAAANcC
-       AAAUUAAA1wIAAExGAADYAgAATEYAANkCAABMRgAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgA+AAAAAQAHANgCAAATUAAAQxEAABNQAABDEQAAFFAAAEMRAAAVUAAA2AIAABVQ
-       AADYAgAAFFAAANgCAAATUAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAA
-       AQAHAEQRAABMRgAARBEAABRQAABDEQAAFFAAAEIRAAAUUAAAQhEAAExGAABDEQAATEYAAEQR
-       AABMRgAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANgCAABLRgAA
-       QxEAAEtGAABDEQAATEYAAEMRAABNRgAA2AIAAE1GAADYAgAATEYAANgCAABLRgAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEQRAABMRgAARBEAABRQAABDEQAA
-       FFAAAEIRAAAUUAAAQhEAAExGAABDEQAATEYAAEQRAABMRgAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgA+AAAAAQAHAEMRAAATUAAA1ScAABNQAADVJwAAFFAAANUnAAAVUAAA
-       QxEAABVQAABDEQAAFFAAAEMRAAATUAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgA+AAAAAQAHANYnAABMRgAA1icAABRQAADVJwAAFFAAANQnAAAUUAAA1CcAAExGAADVJwAA
-       TEYAANYnAABMRgAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHAEMR
-       AABLRgAA1ScAAEtGAADVJwAATEYAANUnAABNRgAAQxEAAE1GAABDEQAATEYAAEMRAABLRgAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANYnAABMRgAA1icAABRQ
-       AADVJwAAFFAAANQnAAAUUAAA1CcAAExGAADVJwAATEYAANYnAABMRgAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgA+AAAAAQAHANUnAAATUAAA+VQAABNQAAD5VAAAFFAAAPlU
-       AAAVUAAA1ScAABVQAADVJwAAFFAAANUnAAATUAAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgA+AAAAAQAHAPpUAABMRgAA+lQAABRQAAD5VAAAFFAAAPhUAAAUUAAA+FQAAExG
-       AAD5VAAATEYAAPpUAABMRgAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgA+AAAA
-       AQAHANUnAABLRgAA+VQAAEtGAAD5VAAATEYAAPlUAABNRgAA1ScAAE1GAADVJwAATEYAANUn
-       AABLRgAAAAA=
+       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
+       BAAaAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAhAABAAUAAAD///8AAYUAAQAFAAAA
+       AAAAAABtAAMAMwAAAAIAQxEAAEAdAABDEQAANSgAAAQAGgAAAAEAAAAAAAAAAAAAAAAAAAAA
+       AAAAAAAEAAAAAIQAAQAFAAAA////AAGFAAEABQAAAAAAAAAAbQADADMAAAACANgCAABAHQAA
+       QxEAAEAdAAAEABoAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAACEAAEABQAAAP///wAB
+       hQABAAUAAAAAAAAAAG0AAwAzAAAAAgBDEQAAQB0AAEMRAAA1KAAABAAaAAAAAQAAAAAAAAAA
+       AAAAAAAAAAAAAAAAAAQAAAAAhAABAAUAAAD///8AAYUAAQAFAAAAAAAAAABtAAMAMwAAAAIA
+       iGsAAEAdAACIawAANSgAAAQAGgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIQAAQAF
+       AAAA////AAGFAAEABQAAAAAAAAAAbQADADMAAAACAEMRAABAHQAAiGsAAEAdAAAEABoAAAAB
+       AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAACEAAEABQAAAP///wABhQABAAUAAAAAAAAAAG0A
+       AwAzAAAAAgDYAgAANSgAANgCAAAqMwAABAAaAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA
+       AAAAhAABAAUAAAD///8AAYUAAQAFAAAAAAAAAABtAAMAMwAAAAIAQxEAADUoAABDEQAAKjMA
+       AAQAGgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIQAAQAFAAAA////AAGFAAEABQAA
+       AAAAAAAAbQADADMAAAACANgCAAA1KAAAQxEAADUoAAAEABoAAAABAAAAAAAAAAAAAAAAAAAA
+       AAAAAAAABAAAAACEAAEABQAAAP///wABhQABAAUAAAAAAAAAAG0AAwAzAAAAAgBDEQAANSgA
+       AEMRAAAqMwAABAAaAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAhAABAAUAAAD///8A
+       AYUAAQAFAAAAAAAAAABtAAMAMwAAAAIAiGsAADUoAACIawAAKjMAAAQAGgAAAAEAAAAAAAAA
+       AAAAAAAAAAAAAAAAAAAEAAAAAIQAAQAFAAAA////AAGFAAEABQAAAAAAAAAAbQADADMAAAAC
+       AEMRAAA1KAAAiGsAADUoAAAEABoAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAACEAAEA
+       BQAAAP///wABhQABAAUAAAAAAAAAAG0AAwAzAAAAAgDYAgAAKjMAANgCAAC9OQAABAAaAAAA
+       AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAhAABAAUAAAD///8AAYUAAQAFAAAAAAAAAABt
+       AAMAMwAAAAIAQxEAACozAABDEQAAvTkAAAQAGgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAE
+       AAAAAIQAAQAFAAAA////AAGFAAEABQAAAAAAAAAAbQADADMAAAACANgCAAAqMwAAQxEAACoz
+       AAAEABoAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAACEAAEABQAAAP///wABhQABAAUA
+       AAAAAAAAAG0AAwAzAAAAAgBDEQAAKjMAAEMRAAC9OQAABAAaAAAAAQAAAAAAAAAAAAAAAAAA
+       AAAAAAAAAAQAAAAAhAABAAUAAAD///8AAYUAAQAFAAAAAAAAAABtAAMAMwAAAAIAiGsAACoz
+       AACIawAAvTkAAAQAGgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIQAAQAFAAAA////
+       AAGFAAEABQAAAAAAAAAAbQADADMAAAACAEMRAAAqMwAAiGsAACozAAAEABoAAAABAAAAAAAA
+       AAAAAAAAAAAAAAAAAAAABAAAAACEAAEABQAAAP///wABhQABAAUAAAAAAAAAAG0AAwAzAAAA
+       AgDYAgAAvTkAANgCAABMRgAABAAaAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAhAAB
+       AAUAAAD///8AAYUAAQAFAAAAAAAAAABtAAMAMwAAAAIAQxEAAL05AABDEQAATEYAAAQAGgAA
+       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
       </office:binary-data>
      </draw:image>
     </draw:frame>
@@ -17808,6 +17805,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="相關連結" draw:style-name="dp3" draw:master-page-name="LushGreen" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.2cm" svg:height="2.4cm" svg:x="1.4cm" svg:y="0.8cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>相關連結</text:p>
