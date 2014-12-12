@@ -1,4 +1,4 @@
-# youtube-dl-helper 圖形介面包裝程式
+# youtube-dl-helper，又一個非官方的 youtube-dl 圖形介面包裝程式
 <https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper>  
 
 ## youtube-dl 是什麼？
