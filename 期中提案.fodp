@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:creation-date>2009-04-16T11:32:32.860000000</meta:creation-date><meta:editing-duration>PT3H11M13S</meta:editing-duration><meta:editing-cycles>38</meta:editing-cycles><meta:generator>LibreOffice/4.3.4.1$Linux_x86 LibreOffice_project/430m0$Build-1</meta:generator><dc:date>2014-12-12T23:10:49.013383499</dc:date><dc:description>本文件授權條款為 WTFPL</dc:description><meta:keyword>Java</meta:keyword><meta:keyword>youtube</meta:keyword><meta:keyword>youtube-dl</meta:keyword><meta:keyword>github</meta:keyword><meta:keyword>download</meta:keyword><dc:title>Java 程式設計課程103年度期末專案第 13 組期中提案—youtube-dl-wrapper </dc:title><dc:creator>Java 程式設計課程103年度期末專案第 13 組</dc:creator><meta:document-statistic meta:object-count="129"/></office:meta>
+ <office:meta><meta:creation-date>2009-04-16T11:32:32.860000000</meta:creation-date><meta:editing-duration>PT3H16M55S</meta:editing-duration><meta:editing-cycles>39</meta:editing-cycles><meta:generator>LibreOffice/4.3.4.1$Linux_x86 LibreOffice_project/430m0$Build-1</meta:generator><dc:date>2014-12-12T23:16:31.353440976</dc:date><dc:description>本文件授權條款為 WTFPL</dc:description><meta:keyword>Java</meta:keyword><meta:keyword>youtube</meta:keyword><meta:keyword>youtube-dl</meta:keyword><meta:keyword>github</meta:keyword><meta:keyword>download</meta:keyword><dc:title>Java 程式設計課程103年度期末專案第 13 組期中提案—youtube-dl-wrapper </dc:title><dc:creator>Java 程式設計課程103年度期末專案第 13 組</dc:creator><meta:document-statistic meta:object-count="129"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">42027</config:config-item>
@@ -29,7 +29,7 @@
      <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
      <config:config-item config:name="RulerIsVisible" config:type="boolean">true</config:config-item>
      <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
-     <config:config-item config:name="SelectedPage" config:type="short">8</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">1</config:config-item>
      <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">false</config:config-item>
@@ -37,10 +37,10 @@
      <config:config-item config:name="EditModeStandard" config:type="int">0</config:config-item>
      <config:config-item config:name="EditModeNotes" config:type="int">0</config:config-item>
      <config:config-item config:name="EditModeHandout" config:type="int">1</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-8985</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-441</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">29656</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">40074</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-323</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-8143</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">44275</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">21609</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">500</config:config-item>
@@ -944,10 +944,16 @@
    <style:graphic-properties fo:min-height="2.4cm"/>
   </style:style>
   <style:style style:name="pr14" style:family="presentation" style:parent-style-name="LushGreen-outline1">
-   <style:graphic-properties fo:min-height="11.929cm"/>
+   <style:graphic-properties draw:auto-grow-height="true" draw:fit-to-size="false" fo:min-height="5.934cm"/>
   </style:style>
   <style:style style:name="pr15" style:family="presentation" style:parent-style-name="LushGreen-notes">
    <style:graphic-properties draw:fill-color="#ffffff" fo:min-height="14cm"/>
+  </style:style>
+  <style:style style:name="pr16" style:family="presentation" style:parent-style-name="LushGreen-outline1">
+   <style:graphic-properties draw:fit-to-size="false" fo:min-height="11.929cm"/>
+  </style:style>
+  <style:style style:name="pr17" style:family="presentation" style:parent-style-name="LushGreen-outline1">
+   <style:graphic-properties fo:min-height="11.929cm"/>
   </style:style>
   <style:style style:name="co1" style:family="table-column">
    <style:table-column-properties style:column-width="3.691cm" style:use-optimal-column-width="false"/>
@@ -1014,10 +1020,14 @@
    <style:text-properties style:font-size-asian="29.3999996185303pt"/>
   </style:style>
   <style:style style:name="P8" style:family="paragraph">
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="P9" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start"/>
    <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
@@ -1029,28 +1039,31 @@
    <style:text-properties fo:font-size="32pt" style:font-size-asian="32pt" style:font-size-complex="32pt"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
-   <style:text-properties fo:font-size="30pt" fo:font-weight="bold" style:font-size-asian="30pt" style:font-weight-asian="bold" style:font-size-complex="30pt" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-size="27pt" fo:font-weight="bold" style:font-size-asian="27pt" style:font-weight-asian="bold" style:font-size-complex="27pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties fo:color="#cccccc" fo:font-size="30pt" fo:font-weight="bold" style:font-size-asian="30pt" style:font-weight-asian="bold" style:font-size-complex="30pt" style:font-weight-complex="bold"/>
+   <style:text-properties fo:color="#cccccc" fo:font-size="27pt" fo:font-weight="bold" style:font-size-asian="27pt" style:font-weight-asian="bold" style:font-size-complex="27pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties style:use-window-font-color="true" fo:font-size="30pt" fo:font-weight="bold" style:font-size-asian="30pt" style:font-weight-asian="bold" style:font-size-complex="30pt" style:font-weight-complex="bold"/>
+   <style:text-properties style:use-window-font-color="true" fo:font-size="27pt" fo:font-weight="bold" style:font-size-asian="27pt" style:font-weight-asian="bold" style:font-size-complex="27pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties fo:font-size="23pt" fo:font-weight="bold" style:font-size-asian="23pt" style:font-weight-asian="bold" style:font-size-complex="23pt" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-size="30pt" fo:font-weight="bold" style:font-size-asian="30pt" style:font-weight-asian="bold" style:font-size-complex="30pt" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="T9" style:family="text">
-   <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
-  </style:style>
-  <style:style style:name="T10" style:family="text">
    <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties fo:font-size="23pt" fo:font-weight="bold" style:font-size-asian="23pt" style:font-weight-asian="bold" style:font-size-complex="23pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties fo:color="#000000" fo:font-size="27pt" fo:font-weight="bold" style:font-size-asian="27pt" style:font-weight-asian="bold" style:font-size-complex="27pt" style:font-weight-complex="bold"/>
+  </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:font-size="24pt" fo:font-weight="bold" style:font-size-asian="24pt" style:font-weight-asian="bold" style:font-size-complex="24pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T12" style:family="text">
+   <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
   </style:style>
   <text:list-style style:name="L1">
    <text:list-level-style-bullet text:level="1" text:bullet-char="●">
@@ -1924,19 +1937,18 @@
       <text:p>專案簡介</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="25.2cm" svg:height="6.934cm" svg:x="1.3cm" svg:y="5.066cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr14" draw:text-style-name="P5" draw:layer="layout" svg:width="25.2cm" svg:height="5.934cm" svg:x="1.3cm" svg:y="5.066cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-header>
         <text:p text:style-name="P5"><text:span text:style-name="T4">什麼是 </text:span><text:span text:style-name="T4">youtube-dl</text:span><text:span text:style-name="T5">-helper</text:span><text:span text:style-name="T6">？</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P5"><text:a xlink:href="http://rg3.github.io/youtube-dl/" xlink:type="simple">youtube-dl</text:a> 為由 Python 程式語言開發， <text:a xlink:href="http://youtube.com/" xlink:type="simple">Youtube</text:a> 與<text:a xlink:href="http://rg3.github.io/youtube-dl/supportedsites.html" xlink:type="simple">更多線上影音網站</text:a>多媒體的命令列介面下載程式，可以根據不同的命令列參數指定要下載的影音格式與其字幕。</text:p>
+          <text:p text:style-name="P5"><text:span text:style-name="T7"><text:a xlink:href="http://rg3.github.io/youtube-dl/" xlink:type="simple">youtube-dl</text:a></text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7">為由 </text:span><text:span text:style-name="T7">Python </text:span><text:span text:style-name="T7">程式語言開發， </text:span><text:span text:style-name="T7"><text:a xlink:href="http://youtube.com/" xlink:type="simple">Youtube</text:a></text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7">與</text:span><text:span text:style-name="T7"><text:a xlink:href="http://rg3.github.io/youtube-dl/supportedsites.html" xlink:type="simple">更多線上影音網站</text:a></text:span><text:span text:style-name="T7">多媒體的命令列介面下載程式，可以根據不同的命令列參數指定要下載的影音格式與其字幕。</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-header>
       </text:list>
-      <text:p text:style-name="P5"/>
      </draw:text-box>
     </draw:frame>
     <draw:frame draw:style-name="gr7" draw:text-style-name="P4" draw:layer="layout" svg:width="13.634cm" svg:height="8.483cm" svg:x="7cm" svg:y="11.5cm">
@@ -6094,14 +6106,14 @@
       <text:p>專案簡介</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="25.2cm" svg:height="8.434cm" svg:x="1.3cm" svg:y="5.066cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr16" draw:text-style-name="P5" draw:layer="layout" svg:width="25.2cm" svg:height="8.434cm" svg:x="1.3cm" svg:y="5.066cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-header>
         <text:p text:style-name="P5"><text:span text:style-name="T4">什麼是 </text:span><text:span text:style-name="T4">youtube-dl</text:span><text:span text:style-name="T5">-helper</text:span><text:span text:style-name="T6">？</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P5">youtube-dl 於 GitHub Git 版本倉庫托管網站上被 7029 人 star（加入我的最愛），1355 人建立分支(fork)，具有218 個貢獻者（有更改過代碼），6238 次版本提交(commit)，於<text:a xlink:href="https://github.com/trending" xlink:type="simple">人氣版本倉庫排名</text:a>中的總排名第五名，於 <text:a xlink:href="https://github.com/trending?l=python" xlink:type="simple">Python 程式語言的版本倉庫中</text:a>排名第一（資料擷取於 2014/11/27），是一個非常有名的釋出到公眾領域(Public Domain)的自由軟體專案。</text:p>
+          <text:p text:style-name="P5"><text:span text:style-name="T8">youtube-dl </text:span><text:span text:style-name="T8">於 </text:span><text:span text:style-name="T8">GitHub Git </text:span><text:span text:style-name="T8">版本倉庫托管網站上被 </text:span><text:span text:style-name="T8">7029 </text:span><text:span text:style-name="T8">人 </text:span><text:span text:style-name="T8">star</text:span><text:span text:style-name="T8">（加入我的最愛），</text:span><text:span text:style-name="T8">1355 </text:span><text:span text:style-name="T8">人建立分支</text:span><text:span text:style-name="T8">(fork)</text:span><text:span text:style-name="T8">，具有</text:span><text:span text:style-name="T8">218 </text:span><text:span text:style-name="T8">個貢獻者（有更改過代碼），</text:span><text:span text:style-name="T8">6238 </text:span><text:span text:style-name="T8">次版本提交</text:span><text:span text:style-name="T8">(commit)</text:span><text:span text:style-name="T8">，於</text:span><text:span text:style-name="T8"><text:a xlink:href="https://github.com/trending" xlink:type="simple">人氣版本倉庫排名</text:a></text:span><text:span text:style-name="T8">中的總排名第五名，於 </text:span><text:span text:style-name="T8"><text:a xlink:href="https://github.com/trending?l=python" xlink:type="simple">Python 程式語言的版本倉庫中</text:a></text:span><text:span text:style-name="T8">排名第一（資料擷取於 </text:span><text:span text:style-name="T8">2014/11/27</text:span><text:span text:style-name="T8">），是一個非常有名的釋出到公眾領域</text:span><text:span text:style-name="T8">(Public Domain)</text:span><text:span text:style-name="T8">的自由軟體專案。</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-header>
@@ -6736,11 +6748,11 @@
       <text:p>專案簡介</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:text-style-name="P6" draw:layer="layout" svg:width="25.2cm" svg:height="2cm" svg:x="1.5cm" svg:y="5cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr17" draw:text-style-name="P6" draw:layer="layout" svg:width="25.2cm" svg:height="2cm" svg:x="1.5cm" svg:y="5cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-header>
-        <text:p><text:span text:style-name="T7">youtube-dl </text:span><text:span text:style-name="T7">使用範例</text:span></text:p>
+        <text:p><text:span text:style-name="T9">youtube-dl </text:span><text:span text:style-name="T9">使用範例</text:span></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -14436,23 +14448,23 @@
       <text:p>專案簡介</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="25.2cm" svg:height="10.934cm" svg:x="1.3cm" svg:y="5.066cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr16" draw:text-style-name="P5" draw:layer="layout" svg:width="25.2cm" svg:height="9.934cm" svg:x="1.3cm" svg:y="5.066cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-header>
-        <text:p text:style-name="P5"><text:span text:style-name="T4">youtu</text:span><text:span text:style-name="T8">be-dl-helper</text:span></text:p>
+        <text:p text:style-name="P5"><text:span text:style-name="T4">youtu</text:span><text:span text:style-name="T10">be-dl-helper</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P5">我們此次期末專題決定以 Java 來設計 youtube-dl 的圖形化介面 wrapper 程式</text:p>
+          <text:p text:style-name="P5"><text:span text:style-name="T7">我們此次期末專題決定以 </text:span><text:span text:style-name="T7">Java </text:span><text:span text:style-name="T7">來設計 </text:span><text:span text:style-name="T7">youtube-dl </text:span><text:span text:style-name="T7">的圖形化介面 </text:span><text:span text:style-name="T7">wrapper </text:span><text:span text:style-name="T7">程式</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P5">此程式將根據使用者提供的媒體網址分析並提供適用的下載設定供使用者調整，最後再呼叫 youtube-dl 來行媒體的下載</text:p>
+          <text:p text:style-name="P5"><text:span text:style-name="T7">此程式將根據使用者提供的媒體網址分析並提供適用的下載設定供使用者調整，最後再呼叫 </text:span><text:span text:style-name="T7">youtube-dl </text:span><text:span text:style-name="T7">來行媒體的下載</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P5">本專案的基本目標是實作 Youtube 之媒體的下載支援</text:p>
+          <text:p text:style-name="P5"><text:span text:style-name="T7">本專案的基本目標是實作 </text:span><text:span text:style-name="T7">Youtube </text:span><text:span text:style-name="T7">之媒體的下載支援</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P5">至於下載下來的媒體的播放則<text:span text:style-name="T2">不在</text:span>本專案開發的規劃範圍內</text:p>
+          <text:p text:style-name="P5"><text:span text:style-name="T7">至於下載下來的媒體的播放則</text:span><text:span text:style-name="T11">不在</text:span><text:span text:style-name="T7">本專案開發的規劃範圍內</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-header>
@@ -14474,44 +14486,44 @@
       <text:p>專案開發所需技術</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="25.2cm" svg:height="14.5cm" svg:x="1.5cm" svg:y="5cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr16" draw:text-style-name="P8" draw:layer="layout" svg:width="25.2cm" svg:height="14.5cm" svg:x="1.5cm" svg:y="5cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>圖形介面(GUI)</text:p>
+        <text:p text:style-name="P8"><text:span text:style-name="T7">圖形介面</text:span><text:span text:style-name="T7">(GUI)</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p>SWT</text:p>
+          <text:p text:style-name="P8"><text:span text:style-name="T7">SWT</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p>Swing</text:p>
+          <text:p text:style-name="P8"><text:span text:style-name="T7">Swing</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p>JavaFX</text:p>
+          <text:p text:style-name="P8"><text:span text:style-name="T7">JavaFX</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>國際化(I18N)</text:p>
+        <text:p text:style-name="P8"><text:span text:style-name="T7">國際化</text:span><text:span text:style-name="T7">(I18N)</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p>ResourceBundle</text:p>
+          <text:p text:style-name="P8"><text:span text:style-name="T7">ResourceBundle</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>來源程式碼版本控制</text:p>
+        <text:p text:style-name="P8"><text:span text:style-name="T7">來源程式碼版本控制</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p>Git</text:p>
+          <text:p text:style-name="P8"><text:span text:style-name="T7">Git</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>Continuous Integration</text:p>
+        <text:p text:style-name="P8"><text:span text:style-name="T7">Continuous Integration</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p>Travis-CI</text:p>
+          <text:p text:style-name="P8"><text:span text:style-name="T7">Travis-CI</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -17106,38 +17118,38 @@
       <text:p>工作分配</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="25.2cm" svg:height="14.5cm" svg:x="1.5cm" svg:y="5cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr17" draw:text-style-name="P8" draw:layer="layout" svg:width="25.2cm" svg:height="14.5cm" svg:x="1.5cm" svg:y="5cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>圖形介面實作</text:p>
+        <text:p text:style-name="P8"><text:span text:style-name="T7">圖形介面實作</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P5"><text:span text:style-name="T3">張仰鈞</text:span></text:p>
+          <text:p text:style-name="P9"><text:span text:style-name="T7">張仰鈞</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P5"><text:span text:style-name="T3">說明文件撰寫、介面設計</text:span></text:p>
+        <text:p text:style-name="P9"><text:span text:style-name="T7">說明文件撰寫、介面設計</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P5"><text:span text:style-name="T3">林博仁</text:span></text:p>
+          <text:p text:style-name="P9"><text:span text:style-name="T7">林博仁</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P5"><text:span text:style-name="T3">程式邏輯設計</text:span></text:p>
+        <text:p text:style-name="P9"><text:span text:style-name="T7">程式邏輯設計</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P5"><text:span text:style-name="T3">林夏媛、許咏順</text:span></text:p>
+          <text:p text:style-name="P9"><text:span text:style-name="T7">林夏媛、許咏順</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P5"><text:span text:style-name="T3">程式除錯、使用者體驗調教</text:span></text:p>
+        <text:p text:style-name="P9"><text:span text:style-name="T7">程式除錯、使用者體驗調教</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P5"><text:span text:style-name="T3">朱運輝、曾鐙毅</text:span></text:p>
+          <text:p text:style-name="P9"><text:span text:style-name="T7">朱運輝、曾鐙毅</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -17179,15 +17191,15 @@
        <table:table-cell table:number-rows-spanned="2">
         <text:list text:continue-numbering="true" text:style-name="L5">
          <text:list-header>
-          <text:p text:style-name="P8">林博仁</text:p>
+          <text:p text:style-name="P10">林博仁</text:p>
          </text:list-header>
         </text:list>
        </table:table-cell>
        <table:table-cell table:style-name="ce2" table:number-rows-spanned="2">
-        <text:p text:style-name="P4"><text:span text:style-name="T9">林夏媛、許咏順</text:span></text:p>
+        <text:p text:style-name="P4"><text:span text:style-name="T12">林夏媛、許咏順</text:span></text:p>
        </table:table-cell>
        <table:table-cell table:style-name="ce2" table:number-rows-spanned="2">
-        <text:p text:style-name="P4"><text:span text:style-name="T9">朱運輝、曾鐙毅</text:span></text:p>
+        <text:p text:style-name="P4"><text:span text:style-name="T12">朱運輝、曾鐙毅</text:span></text:p>
        </table:table-cell>
       </table:table-row>
       <table:table-row table:style-name="ro2" table:default-cell-style-name="ce2">
@@ -17844,25 +17856,25 @@
       <text:p>相關連結</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:text-style-name="P9" draw:layer="layout" svg:width="25.2cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="5.066cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr17" draw:text-style-name="P8" draw:layer="layout" svg:width="25.2cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="5.066cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>本專案的</text:p>
+        <text:p><text:span text:style-name="T7">本專案的</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:a xlink:href="https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper" xlink:type="simple">官方網站</text:a></text:p>
+          <text:p><text:span text:style-name="T7"><text:a xlink:href="https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper" xlink:type="simple">官方網站</text:a></text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:a xlink:href="https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/issues" xlink:type="simple">議題追蹤系統</text:a></text:p>
+          <text:p><text:span text:style-name="T7"><text:a xlink:href="https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/issues" xlink:type="simple">議題追蹤系統</text:a></text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:a xlink:href="https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/wiki" xlink:type="simple">Wiki 頁面</text:a>（目前無內容）</text:p>
+          <text:p><text:span text:style-name="T7"><text:a xlink:href="https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/wiki" xlink:type="simple">Wiki 頁面</text:a></text:span><text:span text:style-name="T7">（目前無內容）</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>本專案衍伸出來的其他 Git 版本倉庫敬請參考<text:line-break/><text:span text:style-name="T10"><text:a xlink:href="https://github.com/NTOUCS-Java-Programming-103-Team-13" xlink:type="simple">https://github.com/NTOUCS-Java-Programming-103-Team-13</text:a></text:span><text:span text:style-name="T11"> </text:span></text:p>
+        <text:p><text:span text:style-name="T7">本專案衍伸出來的其他 </text:span><text:span text:style-name="T7">Git </text:span><text:span text:style-name="T7">版本倉庫敬請參考</text:span><text:span text:style-name="T7"><text:line-break/></text:span><text:span text:style-name="T7"><text:a xlink:href="https://github.com/NTOUCS-Java-Programming-103-Team-13" xlink:type="simple">https://github.com/NTOUCS-Java-Programming-103-Team-13</text:a></text:span><text:span text:style-name="T7"> </text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
