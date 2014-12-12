@@ -1,13 +1,13 @@
-# youtube-dl-wrapper 圖形介面包裝程式
-<https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper>  
+# youtube-dl-helper 圖形介面包裝程式
+<https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper>  
 
 ## youtube-dl 是什麼？
 [youtube-dl](http://rg3.github.io/youtube-dl/) 為下載 [Youtube](http://youtube.com) 與[更多線上影音網站](http://rg3.github.io/youtube-dl/supportedsites.html)多媒體的命令列介面下載程式，可以下載不同的畫質的影片與其字幕。
 
 youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加入我的最愛）， 1355 人建立分支(fork)，218 個貢獻者（有更改過代碼），6238 個版本提交，於[<del>潮到出水</del>人氣版本倉庫排名](https://github.com/trending)中的總排名第五名，於 [Python 程式語言的版本倉庫中](https://github.com/trending?l=python)排名第一（資料擷取於 2014/11/27），是一個非常有名的釋出到公眾領域(Public Domain)的自由軟體專案。
 
-## youtube-dl-wrapper 是什麼？
-youtube-dl-wrapper 為使用 Java 程式語言設計的 youtube-dl 圖形介面包裝程式，企圖讓 youtube-dl 的操作對使用者更加友善。
+## youtube-dl-helper 是什麼？
+youtube-dl-helper 為使用 Java 程式語言設計的 youtube-dl 圖形介面包裝程式，企圖讓 youtube-dl 的操作對使用者更加友善。
 
 ## 作者<br>Authors
 國立台灣海洋大學資訊工程學系 103 學年度《Java 程式設計》課程期末專案第 13 組組員：
@@ -17,7 +17,7 @@ youtube-dl-wrapper 為使用 Java 程式語言設計的 youtube-dl 圖形介面�
 * [林博仁](http://www.github.com/Vdragon)
 * [曾鐙毅](http://www.github.com/kshs31711)
 
-其他專案貢獻者請參考本專案 [Git 版本倉庫的版本提交紀錄](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/commits)。
+其他專案貢獻者請參考本專案 [Git 版本倉庫的版本提交紀錄](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/commits)。
 
 ## 智慧財產授權條款
 本智慧財產已釋出至公眾領域(Public Domain)，其等同以 [WTFPL 授權條款](http://www.wtfpl.net/)釋出：
@@ -66,7 +66,7 @@ youtube-dl-wrapper 為使用 Java 程式語言設計的 youtube-dl 圖形介面�
 協助我們建立可讀性佳，對使用者友善的使用手冊
 
 ### 協助程式開發
-[建立本版本倉庫的分支](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/fork)加入自己的修改後跟我們[提交合併請求(pull request)](https://github.com/Vdragon/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/pull/new)
+[建立本版本倉庫的分支](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/fork)加入自己的修改後跟我們[提交合併請求(pull request)](https://github.com/Vdragon/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/pull/new)
 
 ## 本目錄下的項目說明
 ### [來源程式碼/<br />Source code/](Source code/)
@@ -91,4 +91,4 @@ Git 版本控制系統版本追蹤忽略規則
 請參考 [軟體建構解決方案/](Build solutions/) 目錄下各軟體建構解決方案的說明文件。
 
 ## Continuous Integration 狀態
-[![Build Status](https://travis-ci.org/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper.svg)](https://travis-ci.org/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper)
+[![Build Status](https://travis-ci.org/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper.svg)](https://travis-ci.org/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper)
