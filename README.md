@@ -59,7 +59,7 @@ youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加�
 
 ## 如何參與本專案<br>How to involve?
 ### 回報軟體問題與建議  
-到本專案的[議題追蹤系統](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/issues)建檔並回報問題（沒有 GitHub 帳號可以於 [Join GitHub · GitHub](https://github.com/join) 註冊）
+到本專案的[議題追蹤系統](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/issues)[建檔](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/issues/new)回報（沒有 GitHub 帳號可以於 [Join GitHub · GitHub](https://github.com/join) 註冊）
 
 ### 翻譯軟體介面
 本專案尚未實作國際化支援，如想要貢獻軟體介面翻譯請至[議題追蹤系統](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-wrapper/issues)建檔議題看看我們能幫您做什麼。
