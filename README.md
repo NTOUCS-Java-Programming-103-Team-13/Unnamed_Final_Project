@@ -12,10 +12,12 @@ youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加�
 ## 作者<br>Authors
 國立台灣海洋大學資訊工程學系 103 學年度《Java 程式設計》課程期末專案第 13 組組員：
 
-* [柚子](http://www.github.com/dorislin8737)
+* [林夏媛](http://www.github.com/dorislin8737)
 * [張仰鈞](http://www.github.com/stevekevin1005)
 * [林博仁](http://www.github.com/Vdragon)
 * [曾鐙毅](http://www.github.com/kshs31711)
+* [朱運輝](http://www.github.com/Manuscr1pt)
+* [許咏順]
 
 其他專案貢獻者請參考本專案 [Git 版本倉庫的版本提交紀錄](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/commits)。
 
