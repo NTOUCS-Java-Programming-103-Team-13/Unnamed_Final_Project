@@ -68,7 +68,7 @@ youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加�
 協助我們建立可讀性佳，對使用者友善的使用手冊
 
 ### 協助程式開發
-[建立本版本倉庫的分支](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/fork)加入自己的修改後跟我們[提交合併請求(pull request)](https://github.com/Vdragon/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/pull/new)
+[建立本版本倉庫的分支](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/fork)加入自己的修改後跟我們[提交合併請求(pull request)](https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/pull/new)
 
 ## 本目錄下的項目說明
 ### [來源程式碼/<br />Source code/](Source code/)
