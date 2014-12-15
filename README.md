@@ -93,10 +93,7 @@ Git 版本控制系統版本追蹤忽略規則
 ### [.travis.yml](.travis.yml)
 [Travis-CI Continuous Integration 服務](http://travis-ci.org)設定檔
 
-## 如何建構專案
-請參考 [軟體建構解決方案/](Build solutions/) 目錄下各軟體建構解決方案的說明文件。
-
-## 如何執行建構出來的程式
+## 如何建構軟體／如何執行建構出來的軟體
 請參考 [軟體建構解決方案/](Build solutions/) 目錄下各軟體建構解決方案的說明文件。
 
 ## Continuous Integration 狀態
