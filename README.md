@@ -83,8 +83,15 @@ youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加�
 ### [專案說明文件.md<br />README.md](README.md)
 本專案的說明文件
 
+### [期中提案.fodp](期中提案.fodp)
+
+### [期末報告.fodp](期末報告.fodp)
+
 ### [.gitignore](.gitignore)
 Git 版本控制系統版本追蹤忽略規則
+
+### [.travis.yml](.travis.yml)
+[Travis-CI Continuous Integration 服務](http://travis-ci.org)設定檔
 
 ## 如何建構專案
 請參考 [軟體建構解決方案/](Build solutions/) 目錄下各軟體建構解決方案的說明文件。
