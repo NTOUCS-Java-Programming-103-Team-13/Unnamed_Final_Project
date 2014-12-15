@@ -12,7 +12,7 @@
 set -x
 
 # 呼叫 Java 編譯器(javac)將 Java 來源程式碼編譯為 Java 虛擬機器能載入執行的 bytecode
-javac -d "Built software/" "../../Source code/Hello_Java_world_.java"
+javac -d "Built software/" "../../Source code/tw/edu/ntou/cs/java_programming/semester1031/team13/youtube_dl_helper/MainProgram.java"
 
 # 回傳 0 結束狀態代碼， 0 代表正常結束程式
 exit 0
