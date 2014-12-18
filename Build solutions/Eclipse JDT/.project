@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Hello Java world!</name>
+	<name>youtube-dl-helper</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,4 +14,28 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Source code</name>
+			<type>2</type>
+			<locationURI>global_project_root_directory/Source%20code</locationURI>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1418657406358</id>
+			<name>Source code</name>
+			<type>21</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.java</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+	<variableList>
+		<variable>
+			<name>global_project_root_directory</name>
+			<value>$%7BPARENT-2-PROJECT_LOC%7D</value>
+		</variable>
+	</variableList>
 </projectDescription>
