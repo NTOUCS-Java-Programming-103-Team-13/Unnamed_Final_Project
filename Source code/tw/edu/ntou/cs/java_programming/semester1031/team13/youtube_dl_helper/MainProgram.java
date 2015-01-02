@@ -7,5 +7,6 @@ public class MainProgram{
 		System.out.println("又一個非官方的 youtube-dl 圖形介面包裝程式");
 		System.out.println("Copyright © 2014");
 		System.out.println("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper");
+		System.out.println("－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－");
 	}
 }
