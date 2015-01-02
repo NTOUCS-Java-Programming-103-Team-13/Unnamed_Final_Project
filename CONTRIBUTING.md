@@ -30,5 +30,9 @@
 ### 字元編碼<br>Character encoding
 無 byte order mark(BOM) 的 UTF-8（如果您的系統為 Microsoft Windows 預設字元編碼可能是 BIG5 要切換）
 
+### 行結尾字元序列<br />End-of-Line(EOF) character sequence
+Unix (LF)（如果您的系統為 Microsoft Windows 預設行結尾字元序列
+為 CRLF 要切換）
+
 ### 縮排風格<br>Indentation style  
 以 Tab 字元縮排
