@@ -31,6 +31,33 @@
 				<arguments>1.0-name-matches-false-false-*.java</arguments>
 			</matcher>
 		</filter>
+		<filter>
+			<id>1420168937197</id>
+			<name>Source code</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-.gitignore</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1420168937202</id>
+			<name>Source code</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-README.md</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1420168937208</id>
+			<name>Source code</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-說明文件.md</arguments>
+			</matcher>
+		</filter>
 	</filteredResources>
 	<variableList>
 		<variable>
