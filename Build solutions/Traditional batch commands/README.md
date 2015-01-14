@@ -9,8 +9,8 @@
 2. 執行下列命令：`$ bash buildSoftware.bash.sh`
 
 ## 如何執行建構出來的軟體
-1. 開啟命令列介面，將當前工作目錄(current working directory)切換到專案根目錄底下
-2. 執行下列命令：`java -classpath "Build solutions/Traditional batch commands/Built software" Hello_Java_world_`
+1. 開啟命令列介面，將當前工作目錄(current working directory)切換到 Built software/ 目錄底下
+2. 執行下列命令：`java -classpath . tw.edu.ntou.cs.java_programming.semester1031.team13.youtube_dl_helper.MainProgram`
 
 ## 本目錄下的項目說明
 ### [建構好的軟體/<br />Built software/](Built software/)
