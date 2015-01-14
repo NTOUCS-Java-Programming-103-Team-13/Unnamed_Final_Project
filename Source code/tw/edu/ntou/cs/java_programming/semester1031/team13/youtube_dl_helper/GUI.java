@@ -138,7 +138,7 @@ public class GUI extends JFrame implements ActionListener{
 				try{
 					fileOutStream = new FileOutputStream(file);
 				}catch(FileNotFoundException fe){
-					保存目錄.setText("File Not Found");
+					保存目錄.setText("找不到檔案");
 					return;
 				}
 				
