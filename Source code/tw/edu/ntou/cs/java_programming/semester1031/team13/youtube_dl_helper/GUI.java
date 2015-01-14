@@ -50,11 +50,17 @@ public class GUI extends JFrame implements ActionListener{
 	private JFileChooser savePathChooser = null;
 	JTextArea textarea = null;
 	////////////////////////////////////////////////////////
+	
 		GUI(){
 			super("youtube-dl-helper");//標題
 			JPanel jpCenter = new JPanel();//創立主畫面容器
 			JPanel jpCenter2 = new JPanel();//創立介紹容器
 			jpCenter.setLayout(null);
+			
+			///////////////////////////加入頁籤///////////////////////////
+			view.addTab("下載媒體",jpCenter);
+			view.addTab("關於本軟體",jpCenter2);
+			
 			/////////////////設定大小跟位置//////////////////////////
 			媒體網址輸入框標籤.setSize(new Dimension(200,30));
 			媒體網址輸入框標籤.setLocation(30, 0);
@@ -103,9 +109,7 @@ public class GUI extends JFrame implements ActionListener{
 			jpCenter.add(命令執行結果標籤);
 			jpCenter.add(呼叫命令輸入框);
 			jpCenter.add(命令執行結果);
-			///////////////////////////加入頁籤///////////////////////////
-			view.addTab("下載媒體",jpCenter);
-			view.addTab("關於本軟體",jpCenter2);
+
 			///////////////////////////存檔功能//////////////////////////
 			選擇保存目錄按鈕.addActionListener((ActionListener) this);
 			savePathChooser = new JFileChooser();
@@ -113,6 +117,7 @@ public class GUI extends JFrame implements ActionListener{
 			savePathChooser.setDialogTitle("選擇保存目錄");
 			savePathChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 			savePathChooser.setAcceptAllFileFilterUsed(false);
+			
 			//////////////////////////////////////////////////////////
 			Container cp = getContentPane(); //取得內容面版
 			BorderLayout bl = (BorderLayout)cp.getLayout();
