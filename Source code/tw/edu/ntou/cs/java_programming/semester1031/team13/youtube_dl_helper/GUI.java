@@ -11,12 +11,23 @@ This source code is part of "youtube-dl-helper" software
 The software has been released into public domain.
 */
 package tw.edu.ntou.cs.java_programming.semester1031.team13.youtube_dl_helper;
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 
-import javax.swing.*;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.ListSelectionModel;
+import javax.swing.JTabbedPane;
+import javax.swing.JTextField;
+import javax.swing.JFileChooser;
 
 /**
  * @brief GUI class
@@ -32,9 +43,9 @@ public class GUI extends JFrame implements ActionListener{
 	private JTextField 媒體網址輸入框 = new JTextField(100);
 	private JLabel 網址分析結果標籤 = new JLabel("網址分析結果：");
 	private JLabel 媒體支援格式清單標籤 = new JLabel("選擇下載格式：");
-	private JTextField 媒體支援格式清單 = new JTextField(100);
+	private JList<String> 媒體支援格式清單 = new JList<String>();
 	private JLabel 媒體支援字幕語言清單標籤 = new JLabel("選擇字幕語言：");
-	private JTextField 媒體支援字幕語言清單 = new JTextField(100);
+	private JList<String> 媒體支援字幕語言清單 = new JList<String>();
 	private JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄：");
 	private JTextField 媒體保存目錄輸入框 = new JTextField(512);
 	private JButton 選擇保存目錄按鈕 = new JButton("選擇‧‧‧‧‧");
@@ -45,7 +56,6 @@ public class GUI extends JFrame implements ActionListener{
 	private JLabel 命令執行結果標籤 = new JLabel("下載結果：");
 	////////////////////////////檔案儲存///////////////////
 	private JFileChooser savePathChooser = null;
-	JTextArea textarea = null;
 	////////////////////////////////////////////////////////
 	
 		GUI(){
