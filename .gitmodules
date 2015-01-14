@@ -1,0 +1,3 @@
+[submodule "3rd party software/JSON-java"]
+	path = 3rd party software/JSON-java
+	url = https://github.com/douglascrockford/JSON-java.git

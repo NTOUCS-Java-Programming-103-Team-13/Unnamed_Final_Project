@@ -85,6 +85,9 @@ youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加�
 
 ### [軟體打包用資料/<br />Packaging data/](Packaging data/)
 
+### [第三方軟體/<br />3rd party software/](3rd party software/)
+專案所使用的第三方軟體
+
 ### [專案說明文件.md<br />README.md](README.md)
 本專案的說明文件
 
