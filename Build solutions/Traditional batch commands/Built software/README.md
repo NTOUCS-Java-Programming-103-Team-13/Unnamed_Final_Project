@@ -6,7 +6,3 @@
 本說明文件
 
 ### tw/edu/ntou/cs/java_programming/semester1031/team13/youtube_dl_helper （建構完成才會存在）
-
-### *.jar（建構完成才會存在）（尚未實作）
-用 `jar` 工具封裝好的 Java 應用程式
-
