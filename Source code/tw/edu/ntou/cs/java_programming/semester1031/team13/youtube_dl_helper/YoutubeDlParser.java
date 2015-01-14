@@ -59,7 +59,6 @@ public class YoutubeDlParser{
 		Process youtube_dl_process;
 		try {
 			youtube_dl_process = Runtime.getRuntime().exec("youtube-dl --dump-json " + url);
-			youtube_dl_process.waitFor();
 			
 			String line = null;
 			String json_data = new String();
@@ -81,7 +80,8 @@ public class YoutubeDlParser{
 			}
 			format_json_array = null;
 			media_json = null;
-			
+
+			youtube_dl_process.waitFor();
 		} catch (IOException | InterruptedException e) {
 			// TODO 自動產生的 catch 區塊
 			e.printStackTrace();
@@ -99,7 +99,6 @@ public class YoutubeDlParser{
 		Process youtube_dl_process;
 		try {
 			youtube_dl_process = Runtime.getRuntime().exec("youtube-dl --all-subs --dump-json " + media_url);
-			youtube_dl_process.waitFor();
 			
 			String line = null;
 			String json_data = new String();
@@ -119,6 +118,7 @@ public class YoutubeDlParser{
 				}
 			}
 			
+			youtube_dl_process.waitFor();
 			media_json = null;
 			
 		} catch (IOException | InterruptedException e) {
