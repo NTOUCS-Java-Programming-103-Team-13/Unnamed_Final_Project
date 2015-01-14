@@ -50,7 +50,7 @@ public class GUI extends JFrame implements ActionListener{
 	JTextArea textarea = null;
 	////////////////////////////////////////////////////////
 		GUI(){
-			super("youtube下載支援軟體");//標題
+			super("youtube-dl-helper");//標題
 			JPanel jpCenter = new JPanel();//創立主畫面容器
 			JPanel jpCenter2 = new JPanel();//創立介紹容器
 			jpCenter.setLayout(null);
