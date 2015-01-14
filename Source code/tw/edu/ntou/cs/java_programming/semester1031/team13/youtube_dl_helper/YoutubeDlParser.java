@@ -16,6 +16,7 @@ Recommended text editor settings
 	Tab character width = 2 space characters
 
 @author 林博仁(09957010) <Henry.Lin.Taiwan@gmail.com>
+@author 林夏媛 <dorislin8737@gmail.com>
 @copyright 
 The software has been released into public domain.
 */
@@ -84,8 +85,37 @@ public class YoutubeDlParser{
 	
 	public static ArrayList<String> getMediaSupportedSubtitles(String media_url){
 		ArrayList<String> subtitles = new ArrayList<String>();
+		Process youtube_dl_process;
+		try {
+			youtube_dl_process = Runtime.getRuntime().exec("youtube-dl --dump-json " + url);
+			youtube_dl_process.waitFor();
+			
+			String line = null;
+			String json_data = new String();
+			InputStream youtube_dl_process_standard_output = youtube_dl_process.getInputStream();
+			BufferedReader youtube_dl_output_reader = new BufferedReader (new InputStreamReader(youtube_dl_process_standard_output));
+			while((line = youtube_dl_output_reader.readLine()) != null){
+				json_data += line;
+			}
+			youtube_dl_output_reader.close();
+			
+			JSONObject media_json = new JSONObject(json_data);
+
+			JSONArray subtitle_json_array = media_json.getJSONArray("subtitles");
+			for(int array_index = 0; array_index < subtitle_json_array.length(); ++array_index){
+				subtitles.put(
+					subtitle_json_array.getJSONObject(array_index).getString("subtitles")
+				);
+			}
 		
+			subtitle_json_array = null;
+			media_json = null;
+			
+		} catch (IOException | InterruptedException e) {
+			e.printStackTrace();
+		}
 		return subtitles;
+		
 	}
 
 	public static void main(String[] args){
