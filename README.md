@@ -92,6 +92,9 @@ youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加�
 
 ### [說明文件/<br />Documentation/](Documentation/)
 
+### [軟體資源/<br/>Resources/](Resources/)
+軟體會用到的非程式資源
+
 ### [專案說明文件.md<br />README.md](README.md)
 本專案的說明文件
 
