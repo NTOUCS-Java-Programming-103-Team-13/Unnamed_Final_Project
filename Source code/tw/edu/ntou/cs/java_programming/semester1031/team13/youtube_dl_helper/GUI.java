@@ -105,6 +105,10 @@ public class GUI extends JFrame implements ActionListener{
 			///////////////////////////存檔功能//////////////////////////
 			選擇保存目錄按鈕.addActionListener((ActionListener) this);
 			savePathChooser = new JFileChooser();
+			savePathChooser.setCurrentDirectory(new java.io.File("."));
+			savePathChooser.setDialogTitle("選擇保存目錄");
+			savePathChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+			savePathChooser.setAcceptAllFileFilterUsed(false);
 			//////////////////////////////////////////////////////////
 			Container cp = getContentPane(); //取得內容面版
 			BorderLayout bl = (BorderLayout)cp.getLayout();
@@ -127,34 +131,6 @@ public class GUI extends JFrame implements ActionListener{
 			if(result==JFileChooser.APPROVE_OPTION){
 				file = savePathChooser.getSelectedFile();
 				選擇媒體保存目錄標籤.setText("保存目錄："+savePathChooser.getSelectedFile());
-			}
-			else if(result==JFileChooser.CANCEL_OPTION){
-				選擇媒體保存目錄標籤.setText("保存目錄：");
-			}
-			
-			FileOutputStream fileOutStream = null;
-			
-			if(file != null){
-				try{
-					fileOutStream = new FileOutputStream(file);
-				}catch(FileNotFoundException fe){
-					選擇媒體保存目錄標籤.setText("找不到檔案");
-					return;
-				}
-				
-			String content = textarea.getText();
-			
-			try{
-				fileOutStream.write(content.getBytes());
-			}catch(IOException ioe){
-				選擇媒體保存目錄標籤.setText("寫入檔案錯誤");
-			}
-			finally{
-				try{
-					if(fileOutStream != null)fileOutStream.close();
-				}catch(IOException ioe2){
-				}
-			}
 			}
 		}
 	}
