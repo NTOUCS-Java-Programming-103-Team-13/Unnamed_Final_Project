@@ -49,6 +49,11 @@ public class YoutubeDlParser{
 	
 	/* 類別方法
 	   Class methods */
+	/**
+	 * @brief 呼叫 youtube-dl 取得媒體支援的所有格式
+	 * @param url 媒體的網址
+	 * @return 格式識別代碼對格式描述文字的 key-value 型態資料結構
+	 */
 	public static HashMap<String, String> getMediaSupportedFormats(String url){
 		HashMap<String, String> formats = new HashMap<String, String>();
 		Process youtube_dl_process;
@@ -84,6 +89,11 @@ public class YoutubeDlParser{
 		return formats;
 	}
 	
+	/**
+	 * @brief 呼叫 youtube-dl 取得媒體支援的所有字幕語言的子程式
+	 * @param media_url 媒體的網址
+	 * @return 所有字幕語言的字串清單
+	 */
 	public static ArrayList<String> getMediaSupportedSubtitles(String media_url){
 		ArrayList<String> subtitles = new ArrayList<String>();
 		Process youtube_dl_process;
