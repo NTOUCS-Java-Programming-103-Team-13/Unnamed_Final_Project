@@ -31,22 +31,22 @@ public class GUI extends JFrame implements ActionListener{
 	/////////////////頁籤///////////////////////////
 	private JTabbedPane view = new JTabbedPane (JTabbedPane.TOP);
 	/////////////////主畫面元件///////////////////////////
-	private	JLabel 媒體網址輸入框標籤 = new JLabel("媒體網址 :");
+	private	JLabel 媒體網址輸入框標籤 = new JLabel("媒體網址 ：");
 	private	JTextField 媒體網址輸入框 = new JTextField(100);
-	private	JLabel 網址分析結果標籤 = new JLabel("網址分析結果:");
-	private	JLabel 媒體支援格式清單標籤 = new JLabel("選擇下載格式:");
+	private	JLabel 網址分析結果標籤 = new JLabel("網址分析結果：");
+	private	JLabel 媒體支援格式清單標籤 = new JLabel("選擇下載格式：");
 	private	JTextField 媒體支援格式清單 = new JTextField(100);
-	private	JLabel 媒體支援字幕語言清單標籤 = new JLabel("選擇字幕語言:");
+	private	JLabel 媒體支援字幕語言清單標籤 = new JLabel("選擇字幕語言：");
 	private	JTextField 媒體支援字幕語言清單 = new JTextField(100);
-	private	JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄:");
-	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令:");
+	private	JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄：");
+	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令：");
 	private	JTextField 呼叫命令輸入框 = new JTextField(100);
 	private	JScrollPane 命令執行結果 = new JScrollPane();
 	private JButton 選擇保存目錄按鈕 = new JButton("選擇‧‧‧‧‧");
 	private JButton 執行下載命令按鈕 = new JButton("執行");
-	private JLabel 命令執行結果標籤 = new JLabel("下載結果:");
+	private JLabel 命令執行結果標籤 = new JLabel("下載結果：");
 	////////////////////////////檔案儲存///////////////////
-	private JFileChooser fileChooser = null;
+	private JFileChooser savePathChooser = null;
 	JTextArea textarea = null;
 	////////////////////////////////////////////////////////
 		GUI(){
@@ -104,7 +104,7 @@ public class GUI extends JFrame implements ActionListener{
 			view.addTab("關於本軟體",jpCenter2);
 			///////////////////////////存檔功能//////////////////////////
 			選擇保存目錄按鈕.addActionListener((ActionListener) this);
-			fileChooser = new JFileChooser();
+			savePathChooser = new JFileChooser();
 			//////////////////////////////////////////////////////////
 			Container cp = getContentPane(); //取得內容面版
 			BorderLayout bl = (BorderLayout)cp.getLayout();
@@ -118,18 +118,18 @@ public class GUI extends JFrame implements ActionListener{
 			setVisible(true); //顯示視窗
 	}
 	
-	public void actionPerformed(ActionEvent event){//選擇檔案存檔
+	public void actionPerformed(ActionEvent event){//選擇影片保存的目錄（youtube-dl 下載命令的當前工作目錄）
 		File file=null;
 		int result;
 		if(event.getActionCommand().equals("選擇‧‧‧‧‧")){
-			result = fileChooser.showSaveDialog(frame);
+			result = savePathChooser.showSaveDialog(frame);
 			file = null;
 			if(result==JFileChooser.APPROVE_OPTION){
-				file = fileChooser.getSelectedFile();
-				選擇媒體保存目錄標籤.setText("保存目錄:"+fileChooser.getSelectedFile());
+				file = savePathChooser.getSelectedFile();
+				選擇媒體保存目錄標籤.setText("保存目錄："+savePathChooser.getSelectedFile());
 			}
 			else if(result==JFileChooser.CANCEL_OPTION){
-				選擇媒體保存目錄標籤.setText("保存目錄:");
+				選擇媒體保存目錄標籤.setText("保存目錄：");
 			}
 			
 			FileOutputStream fileOutStream = null;
