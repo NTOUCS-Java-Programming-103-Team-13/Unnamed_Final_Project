@@ -1,3 +1,15 @@
+/** 
+@file GUI.java
+@brief youtube-dl-helper 圖形介面實作
+
+本來源程式碼為「youtube-dl-helper」軟體的一部份
+This source code is part of "youtube-dl-helper" software
+	https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper
+
+@author 張仰鈞 <qqwwee2006@gmail.com>
+@copyright 
+The software has been released into public domain.
+*/
 package tw.edu.ntou.cs.java_programming.semester1031.team13.youtube_dl_helper;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -9,6 +21,9 @@ import java.io.IOException;
 
 import javax.swing.*;
 
+/**
+ * @brief GUI class
+ */
 public class GUI extends JFrame implements ActionListener{
 	private static final long serialVersionUID = 1L;
 	
