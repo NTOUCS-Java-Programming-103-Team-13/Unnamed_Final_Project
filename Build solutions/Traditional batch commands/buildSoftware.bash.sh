@@ -20,12 +20,18 @@ javac -encoding UTF-8 -classpath "${global_project_root_directory}/Source code":
 # 將 Java archive 複製到建構好的軟體目錄
 cp --force --recursive "${global_project_root_directory}/Libraries" "Built software/"
 
+# 將軟體資源複製到建構好的軟體目錄
+cp --force --recursive "${global_project_root_directory}/Resources" "Built software/"
+
 # 打包軟體
 # FIXME: 此步驟會包進實際上無法使用到的 org.json Java archive
 jar vcfm "Packaged software/youtube-dl-helper.jar" "${global_project_root_directory}/Packaging data/Java archive/Java archive manifest.mf" -C "Built software/" .
 
 # 將 Java archive 複製到打包好的軟體目錄
 cp --force --recursive "${global_project_root_directory}/Libraries" "Packaged software/"
+
+# 將軟體資源複製到建構好的軟體目錄
+cp --force --recursive "${global_project_root_directory}/Resources" "Packaged software/"
 
 chmod a+x "Packaged software/youtube-dl-helper.jar"
 
