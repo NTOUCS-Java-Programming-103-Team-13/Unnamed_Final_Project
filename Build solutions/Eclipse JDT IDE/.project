@@ -16,9 +16,19 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Packaging data</name>
+			<type>2</type>
+			<locationURI>global_project_root_directory/Packaging%20data</locationURI>
+		</link>
+		<link>
 			<name>Source code</name>
 			<type>2</type>
 			<locationURI>global_project_root_directory/Source%20code</locationURI>
+		</link>
+		<link>
+			<name>UI design</name>
+			<type>2</type>
+			<locationURI>global_project_root_directory/UI%20design</locationURI>
 		</link>
 	</linkedResources>
 	<filteredResources>
