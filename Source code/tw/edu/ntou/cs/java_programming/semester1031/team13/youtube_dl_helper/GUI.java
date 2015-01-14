@@ -31,18 +31,18 @@ public class GUI extends JFrame implements ActionListener{
 	/////////////////頁籤///////////////////////////
 	private JTabbedPane view = new JTabbedPane (JTabbedPane.TOP);
 	/////////////////主畫面元件///////////////////////////
-	private	JLabel 媒體網址輸入框標籤 = new JLabel("媒體網址 ：");
-	private	JTextField 媒體網址輸入框 = new JTextField(100);
-	private	JLabel 網址分析結果標籤 = new JLabel("網址分析結果：");
-	private	JLabel 媒體支援格式清單標籤 = new JLabel("選擇下載格式：");
-	private	JTextField 媒體支援格式清單 = new JTextField(100);
-	private	JLabel 媒體支援字幕語言清單標籤 = new JLabel("選擇字幕語言：");
-	private	JTextField 媒體支援字幕語言清單 = new JTextField(100);
-	private	JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄：");
+	private JLabel 媒體網址輸入框標籤 = new JLabel("媒體網址 ：");
+	private JTextField 媒體網址輸入框 = new JTextField(100);
+	private JLabel 網址分析結果標籤 = new JLabel("網址分析結果：");
+	private JLabel 媒體支援格式清單標籤 = new JLabel("選擇下載格式：");
+	private JTextField 媒體支援格式清單 = new JTextField(100);
+	private JLabel 媒體支援字幕語言清單標籤 = new JLabel("選擇字幕語言：");
+	private JTextField 媒體支援字幕語言清單 = new JTextField(100);
+	private JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄：");
 	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令：");
-	private	JTextField 呼叫命令輸入框 = new JTextField(1024);
-	private	JScrollPane 命令執行結果 = new JScrollPane();
-	private	JTextField 媒體保存目錄輸入框 = new JTextField(512);
+	private JTextField 呼叫命令輸入框 = new JTextField(1024);
+	private JScrollPane 命令執行結果 = new JScrollPane();
+	private JTextField 媒體保存目錄輸入框 = new JTextField(512);
 	private JButton 選擇保存目錄按鈕 = new JButton("選擇‧‧‧‧‧");
 	private JButton 執行下載命令按鈕 = new JButton("執行");
 	private JLabel 命令執行結果標籤 = new JLabel("下載結果：");
