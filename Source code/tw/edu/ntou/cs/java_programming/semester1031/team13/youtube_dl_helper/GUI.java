@@ -104,7 +104,7 @@ public class GUI extends JFrame implements ActionListener{
 			view.addTab("關於本軟體",jpCenter2);
 			///////////////////////////存檔功能//////////////////////////
 			選擇.addActionListener((ActionListener) this);
-			fileChooser = new JFileChooser("D:\\");
+			fileChooser = new JFileChooser();
 			//////////////////////////////////////////////////////////
 			Container cp = getContentPane(); //取得內容面版
 			BorderLayout bl = (BorderLayout)cp.getLayout();
