@@ -28,6 +28,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 
 import org.json.*;
 
@@ -87,7 +88,7 @@ public class YoutubeDlParser{
 		ArrayList<String> subtitles = new ArrayList<String>();
 		Process youtube_dl_process;
 		try {
-			youtube_dl_process = Runtime.getRuntime().exec("youtube-dl --dump-json " + url);
+			youtube_dl_process = Runtime.getRuntime().exec("youtube-dl --all-subs --dump-json " + media_url);
 			youtube_dl_process.waitFor();
 			
 			String line = null;
@@ -101,14 +102,13 @@ public class YoutubeDlParser{
 			
 			JSONObject media_json = new JSONObject(json_data);
 
-			JSONArray subtitle_json_array = media_json.getJSONArray("subtitles");
-			for(int array_index = 0; array_index < subtitle_json_array.length(); ++array_index){
-				subtitles.put(
-					subtitle_json_array.getJSONObject(array_index).getString("subtitles")
-				);
+			if(media_json.get("subtitles") != null){
+				JSONObject subtitles_object = media_json.getJSONObject("subtitles");
+				for(Iterator<String> i = subtitles_object.keys(); i.hasNext(); ){
+					subtitles.add(i.next());
+				}
 			}
-		
-			subtitle_json_array = null;
+			
 			media_json = null;
 			
 		} catch (IOException | InterruptedException e) {
@@ -121,8 +121,13 @@ public class YoutubeDlParser{
 	public static void main(String[] args){
 		System.out.println("YoutubeDlParser.java unittest");
 		System.out.println("－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－");
+		System.out.println("有多種格式、有多種字幕語言的 Youtube 影片：");
 		System.out.println(getMediaSupportedFormats("https://www.youtube.com/watch?v=iAy0tG56ZYg").toString());
 		System.out.println(getMediaSupportedSubtitles("https://www.youtube.com/watch?v=iAy0tG56ZYg").toString());
+		
+		System.out.println("有多種格式、沒有字幕的 Youtube 影片：");
+		System.out.println(getMediaSupportedFormats("https://www.youtube.com/watch?v=RCFbYAUw2QA").toString());
+		System.out.println(getMediaSupportedSubtitles("https://www.youtube.com/watch?v=RCFbYAUw2QA").toString());
 		return;
 	}
 }
