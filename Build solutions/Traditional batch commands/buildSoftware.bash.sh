@@ -17,7 +17,7 @@ set -x
 javac -classpath "${global_project_root_directory}/Source code/tw/edu/ntou/cs/java_programming/semester1031/team13/youtube_dl_helper" -d "Built software/" "${global_project_root_directory}/Source code/tw/edu/ntou/cs/java_programming/semester1031/team13/youtube_dl_helper/MainProgram.java" "${global_project_root_directory}/Source code/tw/edu/ntou/cs/java_programming/semester1031/team13/youtube_dl_helper/GUI.java"
 
 # 打包軟體
-jar vcfm "Packaged software/youtube-dl-helper.jar" "${global_project_root_directory}/Packaging data/Java archive manifest.mf" -C "Built software/" .
+jar vcfm "Packaged software/youtube-dl-helper.jar" "${global_project_root_directory}/Packaging data/Java archive/Java archive manifest.mf" -C "Built software/" .
 
 chmod a+x "Packaged software/youtube-dl-helper.jar"
 
