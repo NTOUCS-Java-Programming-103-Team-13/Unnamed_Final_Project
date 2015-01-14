@@ -40,7 +40,7 @@ public class GUI extends JFrame implements ActionListener{
 	private	JTextField 媒體支援字幕語言清單 = new JTextField(100);
 	private	JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄：");
 	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令：");
-	private	JTextField 呼叫命令輸入框 = new JTextField(100);
+	private	JTextField 呼叫命令輸入框 = new JTextField(1024);
 	private	JScrollPane 命令執行結果 = new JScrollPane();
 	private JButton 選擇保存目錄按鈕 = new JButton("選擇‧‧‧‧‧");
 	private JButton 執行下載命令按鈕 = new JButton("執行");
