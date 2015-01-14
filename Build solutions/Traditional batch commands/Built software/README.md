@@ -2,6 +2,9 @@
 此為放置「Traditional batch commands」軟體建構解決方案建構好的軟體的目錄
 
 ## 本目錄下的項目說明
+### [Libraries/](Libraries/)（建構完成才會存在）
+軟體用到的第三方函式庫
+
 ### [說明文件.md<br />README.md](README.md)
 本說明文件
 

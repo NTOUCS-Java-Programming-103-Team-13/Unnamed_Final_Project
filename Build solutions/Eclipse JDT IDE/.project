@@ -40,6 +40,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Libraries</name>
+			<type>2</type>
+			<locationURI>global_project_root_directory/Libraries</locationURI>
+		</link>
+		<link>
 			<name>Packaging data</name>
 			<type>2</type>
 			<locationURI>global_project_root_directory/Packaging%20data</locationURI>

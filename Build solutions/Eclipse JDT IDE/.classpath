@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="Source code"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="Libraries/org.json.jar" sourcepath="Libraries/org.json.jar"/>
 	<classpathentry kind="output" path="Built software"/>
 </classpath>
