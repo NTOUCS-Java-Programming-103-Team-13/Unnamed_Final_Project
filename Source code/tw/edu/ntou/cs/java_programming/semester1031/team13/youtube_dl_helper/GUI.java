@@ -134,9 +134,8 @@ public class GUI extends JFrame implements ActionListener{
 	}
 	
 	public void actionPerformed(ActionEvent event){//選擇影片保存的目錄（youtube-dl 下載命令的當前工作目錄）
-		int result;
 		if(event.getActionCommand().equals("選擇‧‧‧‧‧")){
-			result = savePathChooser.showSaveDialog(frame);
+			int result = savePathChooser.showSaveDialog(frame);
 
 			if(result==JFileChooser.APPROVE_OPTION){
 				媒體保存目錄輸入框.setText(savePathChooser.getSelectedFile().getAbsolutePath());
