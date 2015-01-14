@@ -39,12 +39,12 @@ public class GUI extends JFrame implements ActionListener{
 	private JLabel 媒體支援字幕語言清單標籤 = new JLabel("選擇字幕語言：");
 	private JTextField 媒體支援字幕語言清單 = new JTextField(100);
 	private JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄：");
-	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令：");
-	private JTextField 呼叫命令輸入框 = new JTextField(1024);
-	private JScrollPane 命令執行結果 = new JScrollPane();
 	private JTextField 媒體保存目錄輸入框 = new JTextField(512);
 	private JButton 選擇保存目錄按鈕 = new JButton("選擇‧‧‧‧‧");
+	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令：");
+	private JTextField 呼叫命令輸入框 = new JTextField(1024);
 	private JButton 執行下載命令按鈕 = new JButton("執行");
+	private JScrollPane 命令執行結果 = new JScrollPane();
 	private JLabel 命令執行結果標籤 = new JLabel("下載結果：");
 	////////////////////////////檔案儲存///////////////////
 	private JFileChooser savePathChooser = null;
@@ -55,38 +55,38 @@ public class GUI extends JFrame implements ActionListener{
 			JPanel jpCenter = new JPanel();//創立主畫面容器
 			JPanel jpCenter2 = new JPanel();//創立介紹容器
 			jpCenter.setLayout(null);
-			/////////////////大小區//////////////////////////
-			呼叫命令標籤.setSize(new Dimension(200,30));
-			呼叫命令輸入框.setSize(new Dimension(600,30));
-			選擇媒體保存目錄標籤.setSize(new Dimension(200,30));
-			媒體保存目錄輸入框.setSize(new Dimension(600, 30));
-			執行下載命令按鈕.setSize(new Dimension(75,30));
-			選擇保存目錄按鈕.setSize(new Dimension(125,30));
-			命令執行結果.setSize(new Dimension(865,200));
-			命令執行結果標籤.setSize(new Dimension(200,30));
-			媒體支援格式清單.setSize(new Dimension(200,150));
-			媒體支援字幕語言清單.setSize(new Dimension(200,150));
-			媒體支援格式清單標籤.setSize(new Dimension(200,30));
-			媒體支援字幕語言清單標籤.setSize(new Dimension(200,30));
-			網址分析結果標籤.setSize(new Dimension(200,30));
+			/////////////////設定大小跟位置//////////////////////////
 			媒體網址輸入框標籤.setSize(new Dimension(200,30));
-			媒體網址輸入框.setSize(new Dimension(800,30));
-			//////////////////位置區/////////////////////////
-			選擇媒體保存目錄標籤.setLocation(30,350);
-			呼叫命令標籤.setLocation(30,400);
-			呼叫命令輸入框.setLocation(150,400);
-			媒體保存目錄輸入框.setLocation(120, 350);
-			選擇保存目錄按鈕.setLocation(770, 350);
-			執行下載命令按鈕.setLocation(820, 400);
-			命令執行結果.setLocation(30, 450);
-			命令執行結果標籤.setLocation(30,650);
-			媒體支援格式清單.setLocation(30,180);
-			媒體支援字幕語言清單.setLocation(240,180);
-			媒體支援字幕語言清單標籤.setLocation(240,150);
-			媒體支援格式清單標籤.setLocation(30,150);
-			網址分析結果標籤.setLocation(30,120);
 			媒體網址輸入框標籤.setLocation(30, 0);
+			媒體網址輸入框.setSize(new Dimension(800,30));
 			媒體網址輸入框.setLocation(95,0);
+			網址分析結果標籤.setSize(new Dimension(200,30));
+			網址分析結果標籤.setLocation(30,120);
+			媒體支援格式清單標籤.setSize(new Dimension(200,30));
+			媒體支援格式清單標籤.setLocation(30,150);
+			媒體支援格式清單.setSize(new Dimension(200,150));
+			媒體支援格式清單.setLocation(30,180);
+			媒體支援字幕語言清單標籤.setSize(new Dimension(200,30));
+			媒體支援字幕語言清單標籤.setLocation(240,150);
+			媒體支援字幕語言清單.setSize(new Dimension(200,150));
+			媒體支援字幕語言清單.setLocation(240,180);
+			選擇媒體保存目錄標籤.setSize(new Dimension(200,30));
+			選擇媒體保存目錄標籤.setLocation(30,350);
+			媒體保存目錄輸入框.setSize(new Dimension(600, 30));
+			媒體保存目錄輸入框.setLocation(120, 350);
+			選擇保存目錄按鈕.setSize(new Dimension(125,30));
+			選擇保存目錄按鈕.setLocation(770, 350);
+			呼叫命令標籤.setSize(new Dimension(200,30));
+			呼叫命令標籤.setLocation(30,400);
+			呼叫命令輸入框.setSize(new Dimension(600,30));
+			呼叫命令輸入框.setLocation(150,400);
+			執行下載命令按鈕.setSize(new Dimension(75,30));
+			執行下載命令按鈕.setLocation(820, 400);
+			命令執行結果.setSize(new Dimension(865,200));
+			命令執行結果.setLocation(30, 450);
+			命令執行結果標籤.setSize(new Dimension(200,30));
+			命令執行結果標籤.setLocation(30,650);
+
 			/////////////////加入元件//////////////////////
 			jpCenter.add(媒體網址輸入框標籤); //將元件加入JPanel子容器
 			jpCenter.add(媒體網址輸入框);
