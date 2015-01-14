@@ -42,6 +42,7 @@ public class GUI extends JFrame implements ActionListener{
 	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令：");
 	private	JTextField 呼叫命令輸入框 = new JTextField(1024);
 	private	JScrollPane 命令執行結果 = new JScrollPane();
+	private	JTextField 媒體保存目錄輸入框 = new JTextField(512);
 	private JButton 選擇保存目錄按鈕 = new JButton("選擇‧‧‧‧‧");
 	private JButton 執行下載命令按鈕 = new JButton("執行");
 	private JLabel 命令執行結果標籤 = new JLabel("下載結果：");
@@ -57,7 +58,8 @@ public class GUI extends JFrame implements ActionListener{
 			/////////////////大小區//////////////////////////
 			呼叫命令標籤.setSize(new Dimension(200,30));
 			呼叫命令輸入框.setSize(new Dimension(600,30));
-			選擇媒體保存目錄標籤.setSize(new Dimension(800,30));
+			選擇媒體保存目錄標籤.setSize(new Dimension(200,30));
+			媒體保存目錄輸入框.setSize(new Dimension(600, 30));
 			執行下載命令按鈕.setSize(new Dimension(75,30));
 			選擇保存目錄按鈕.setSize(new Dimension(125,30));
 			命令執行結果.setSize(new Dimension(865,200));
@@ -73,6 +75,7 @@ public class GUI extends JFrame implements ActionListener{
 			選擇媒體保存目錄標籤.setLocation(30,350);
 			呼叫命令標籤.setLocation(30,400);
 			呼叫命令輸入框.setLocation(150,400);
+			媒體保存目錄輸入框.setLocation(120, 350);
 			選擇保存目錄按鈕.setLocation(770, 350);
 			執行下載命令按鈕.setLocation(820, 400);
 			命令執行結果.setLocation(30, 450);
@@ -93,6 +96,7 @@ public class GUI extends JFrame implements ActionListener{
 			jpCenter.add(媒體支援字幕語言清單標籤);
 			jpCenter.add(媒體支援字幕語言清單);
 			jpCenter.add(選擇媒體保存目錄標籤);
+			jpCenter.add(媒體保存目錄輸入框);
 			jpCenter.add(呼叫命令標籤);
 			jpCenter.add(選擇保存目錄按鈕);
 			jpCenter.add(執行下載命令按鈕);
@@ -130,7 +134,7 @@ public class GUI extends JFrame implements ActionListener{
 			file = null;
 			if(result==JFileChooser.APPROVE_OPTION){
 				file = savePathChooser.getSelectedFile();
-				選擇媒體保存目錄標籤.setText("保存目錄："+savePathChooser.getSelectedFile());
+				媒體保存目錄輸入框.setText(savePathChooser.getSelectedFile().getAbsolutePath());
 			}
 		}
 	}
