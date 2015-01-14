@@ -9,3 +9,6 @@
 Git 版本控制系統版本追蹤忽略規則
 
 ### [主介面設計.fodg](主介面設計.fodg)
+
+### [icon_design.fodg](icon_design.fodg)
+This work is a derivative work based on LibreOffice gallary icons(license: LGPL)
