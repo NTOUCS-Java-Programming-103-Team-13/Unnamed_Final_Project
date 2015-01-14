@@ -44,9 +44,9 @@ youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加�
 * [jakeogh/youtube-dl-wrapper](https://github.com/jakeogh/youtube-dl-wrapper)
 	* 命令列介面的包裝程式，支援下載失敗重試
 * [fredyw/win-youtube-dl](https://github.com/fredyw/win-youtube-dl)
-    * 根據開發者說明理論上 Mac、GNU/Linux 平台也能執行，但是目前只有提供 Windows 平台的程式
+	* 根據開發者說明理論上 Mac、GNU/Linux 平台也能執行，但是目前只有提供 Windows 平台的程式
 * [3D Youtube Downloader](http://yd.3dyd.com/)
-    * 專有軟體，似乎不是基於 youtube-dl
+	* 專有軟體，似乎不是基於 youtube-dl
 * [MrS0m30n3/youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui)
 	* 基於 youtube-dl ，以 wxPython 圖形介面函式庫設計的前端(frontend)軟體
 
