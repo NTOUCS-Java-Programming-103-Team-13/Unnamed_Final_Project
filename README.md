@@ -106,5 +106,18 @@ Git 版本控制系統版本追蹤忽略規則
 ## 如何建構軟體／如何執行建構出來的軟體
 請參考 [軟體建構解決方案/](Build solutions/) 目錄下各軟體建構解決方案的說明文件。
 
+## 建構本軟體需要用到的軟體
+### GNU Bash 殼程式
+用於第三方軟體的建構程式
+
+### Java 開發環境<br />Java development environment(JDK)
+
+其他需要的軟體請參考各[軟體建構解決方案/](Build solutions/)的說明文件。
+
+## 執行本軟體需要用到的軟體
+### Java 執行時期環境<br />Java runtime environment(JRE)
+
+### 安裝到系統搜尋可執行檔路徑中的 youtube-dl 程式
+
 ## Continuous Integration 狀態
 [![Build Status](https://travis-ci.org/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper.svg)](https://travis-ci.org/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper)
