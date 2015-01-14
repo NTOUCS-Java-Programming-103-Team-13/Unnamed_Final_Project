@@ -50,6 +50,11 @@ public class GUI extends JFrame implements ActionListener{
 	
 		GUI(){
 			super("youtube-dl-helper");//標題
+			
+			/* 設定軟體圖示 */
+			ImageIcon img = new ImageIcon(getClass().getResource("/Resources/Pictures/icon_design.png"));
+			frame.setIconImage(img.getImage());
+			
 			JPanel jpCenter = new JPanel();//創立主畫面容器
 			JPanel jpCenter2 = new JPanel();//創立介紹容器
 			jpCenter.setLayout(null);
