@@ -47,6 +47,8 @@ youtube-dl 為 GitHub Git 版本倉庫托管網站上 7029 人 star（類似加�
     * 根據開發者說明理論上 Mac、GNU/Linux 平台也能執行，但是目前只有提供 Windows 平台的程式
 * [3D Youtube Downloader](http://yd.3dyd.com/)
     * 專有軟體，似乎不是基於 youtube-dl
+* [MrS0m30n3/youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui)
+	* 基於 youtube-dl ，以 wxPython 圖形介面函式庫設計的前端(frontend)軟體
 
 ## 軟體開發目標
 ### 支援國際化(I18N)
