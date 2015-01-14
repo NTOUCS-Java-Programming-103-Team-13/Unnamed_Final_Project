@@ -5,8 +5,6 @@ jdk:
   - openjdk7
   - openjdk6
 script: 
+  - bash 'Tools/prepareBuildDependencies.bash.sh'
   - cd 'Build solutions/Traditional batch commands/'
   - bash buildSoftware.bash.sh
-after_script:
-  - cd "Built software"
-  - java -classpath "." tw.edu.ntou.cs.java_programming.semester1031.team13.youtube_dl_helper.MainProgram
