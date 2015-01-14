@@ -121,15 +121,15 @@ public class GUI extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent event){//選擇檔案存檔
 		File file=null;
 		int result;
-		if(event.getActionCommand().equals("選擇保存目錄按鈕‧‧‧‧‧")){
+		if(event.getActionCommand().equals("選擇‧‧‧‧‧")){
 			result = fileChooser.showSaveDialog(frame);
 			file = null;
 			if(result==JFileChooser.APPROVE_OPTION){
 				file = fileChooser.getSelectedFile();
-				選擇媒體保存目錄標籤.setText("選擇媒體保存目錄標籤:"+fileChooser.getSelectedFile());
+				選擇媒體保存目錄標籤.setText("保存目錄:"+fileChooser.getSelectedFile());
 			}
 			else if(result==JFileChooser.CANCEL_OPTION){
-				選擇媒體保存目錄標籤.setText("選擇媒體保存目錄標籤:");
+				選擇媒體保存目錄標籤.setText("保存目錄:");
 			}
 			
 			FileOutputStream fileOutStream = null;
