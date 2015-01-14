@@ -57,7 +57,7 @@
 	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1421242693900</id>
+			<id>1421250471362</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -66,12 +66,30 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1421242693908</id>
+			<id>1421250471364</id>
 			<name></name>
 			<type>22</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-說明文件.md</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1421250471366</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-啟動設定檔</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1421250471368</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-打包好的軟體</arguments>
 			</matcher>
 		</filter>
 		<filter>
