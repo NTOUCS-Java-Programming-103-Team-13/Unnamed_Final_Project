@@ -112,7 +112,7 @@ public class GUI extends JFrame implements ActionListener{
 			媒體保存目錄輸入框.setSize(new Dimension(600, 30));
 			媒體保存目錄輸入框.setLocation(120, 350);
 			try {
-				媒體保存目錄輸入框.setText(URLDecoder.decode(GUI.class.getProtectionDomain().getCodeSource().getLocation().getFile().toString(), "UTF-8"));
+				媒體保存目錄輸入框.setText(URLDecoder.decode(GUI.class.getProtectionDomain().getCodeSource().getLocation().getPath().toString(), "UTF-8"));
 			} catch (UnsupportedEncodingException e) {
 				// TODO 自動產生的 catch 區塊
 				e.printStackTrace();
@@ -135,9 +135,9 @@ public class GUI extends JFrame implements ActionListener{
 			jpCenter.add(媒體網址輸入框);
 			jpCenter.add(網址分析結果標籤);
 			jpCenter.add(媒體支援格式清單標籤);
-			jpCenter.add(new JScrollPane(媒體支援格式清單));
+			jpCenter.add(媒體支援格式清單);
 			jpCenter.add(媒體支援字幕語言清單標籤);
-			jpCenter.add(new JScrollPane(媒體支援字幕語言清單));
+			jpCenter.add(媒體支援字幕語言清單);
 			jpCenter.add(選擇媒體保存目錄標籤);
 			jpCenter.add(媒體保存目錄輸入框);
 			jpCenter.add(呼叫命令標籤);
@@ -145,7 +145,7 @@ public class GUI extends JFrame implements ActionListener{
 			jpCenter.add(執行下載命令按鈕);
 			jpCenter.add(命令執行結果標籤);
 			jpCenter.add(呼叫命令輸入框);
-			jpCenter.add(new JScrollPane(命令執行結果, ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED));
+			jpCenter.add(命令執行結果);
 
 			
 			媒體網址輸入框.addActionListener((ActionListener) this);
