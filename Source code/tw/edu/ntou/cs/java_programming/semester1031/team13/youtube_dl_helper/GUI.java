@@ -16,6 +16,8 @@ import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -92,6 +94,12 @@ public class GUI extends JFrame implements ActionListener{
 			選擇媒體保存目錄標籤.setLocation(30,350);
 			媒體保存目錄輸入框.setSize(new Dimension(600, 30));
 			媒體保存目錄輸入框.setLocation(120, 350);
+			try {
+				媒體保存目錄輸入框.setText(URLDecoder.decode(GUI.class.getProtectionDomain().getCodeSource().getLocation().getFile(), "UTF-8"));
+			} catch (UnsupportedEncodingException e) {
+				// TODO 自動產生的 catch 區塊
+				e.printStackTrace();
+			}
 			選擇保存目錄按鈕.setSize(new Dimension(125,30));
 			選擇保存目錄按鈕.setLocation(770, 350);
 			呼叫命令標籤.setSize(new Dimension(200,30));
@@ -149,6 +157,7 @@ public class GUI extends JFrame implements ActionListener{
 
 			if(result==JFileChooser.APPROVE_OPTION){
 				媒體保存目錄輸入框.setText(savePathChooser.getSelectedFile().getAbsolutePath());
+				媒體保存目錄輸入框.setToolTipText(媒體保存目錄輸入框.getText());
 			}
 		}
 	}
