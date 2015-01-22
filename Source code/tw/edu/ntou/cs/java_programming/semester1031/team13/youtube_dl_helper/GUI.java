@@ -43,7 +43,7 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 	/////////////////主畫面元件///////////////////////////
 	private JLabel 媒體網址輸入框標籤 = new JLabel("媒體網址 ：");
 	private JTextField 媒體網址輸入框 = new JTextField(100);
-	private JLabel 網址分析結果標籤 = new JLabel("網址分析結果：");
+	private JLabel 網址分析結果標籤 = new JLabel("媒體網址輸入範例：https://www.youtube.com/watch?v=iAy0tG56ZYg");
 	private JLabel 媒體支援格式清單標籤 = new JLabel("選擇下載格式：");
 	private JList<String> 媒體支援格式清單 = new JList<String>();
 	private JScrollPane 媒體支援格式清單卷軸 = new JScrollPane(媒體支援格式清單);
@@ -116,7 +116,7 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 			媒體網址輸入框標籤.setLocation(30, 0);
 			媒體網址輸入框.setSize(new Dimension(800,30));
 			媒體網址輸入框.setLocation(100,0);
-			網址分析結果標籤.setSize(new Dimension(200,30));
+			網址分析結果標籤.setSize(new Dimension(800,30));
 			網址分析結果標籤.setLocation(30,30);
 			媒體支援格式清單標籤.setSize(new Dimension(200,30));
 			媒體支援格式清單標籤.setLocation(30,60);
