@@ -286,12 +286,14 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 			媒體支援字幕語言清單.setVisible(true);
 			媒體支援字幕語言清單.addListSelectionListener((ListSelectionListener) this);
 			
+			呼叫命令輸入框.setText("youtube-dl " + 媒體網址輸入框.getText());
+			
 		}
 
   		if(event.getActionCommand().equals("執行")){
   			Process youtube_dl_process;
   			try {
-  				youtube_dl_process = Runtime.getRuntime().exec("youtube-dl " + 呼叫命令輸入框.getText() + " " + 媒體網址輸入框.getText());
+  				youtube_dl_process = Runtime.getRuntime().exec(呼叫命令輸入框.getText());
   				String line;
   				InputStream youtube_dl_process_standard_output = youtube_dl_process.getInputStream();
   				BufferedReader youtube_dl_output_reader = new BufferedReader (new InputStreamReader(youtube_dl_process_standard_output));
