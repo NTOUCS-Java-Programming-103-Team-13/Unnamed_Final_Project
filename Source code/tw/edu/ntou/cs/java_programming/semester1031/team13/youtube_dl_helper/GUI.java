@@ -61,7 +61,14 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 	private JButton 執行下載命令按鈕 = new JButton("執行");
 	private JTextArea 命令執行結果 = new JTextArea();
 	private JScrollPane 命令執行結果卷軸 = new JScrollPane(命令執行結果);
-	private JLabel 命令執行結果標籤 = new JLabel("下載結果：");
+	private JLabel 版本圖片 = new JLabel();
+	private JLabel 版本介紹 = new JLabel("又一個非官方的 youtube-dl圖形介面包裝程式");
+	private JLabel 版本網址 = new JLabel("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper");
+	private JLabel 回報問題 = new JLabel("回報問題: ");
+	private JLabel 回報網址 = new JLabel("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/issues");
+	private JLabel wiki = new JLabel("Wiki: ");
+	private JLabel wiki網址 = new JLabel("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/wiki");
+	private JLabel 使用說明 = new JLabel("第一次使用前請先至http://rg3.github.io/youtube-dl/download.html下載youtube-dl並將儲存位置加入系統變數Path中");
 	private JLabel 使用說明1 = new JLabel("本軟體建議放大為全螢幕後使用");
 	private JLabel 使用說明2 = new JLabel("操作介紹:");
 	private JLabel 使用說明3 = new JLabel("請將影片網址填入媒體網址後之空格");
@@ -70,11 +77,11 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 	private JLabel 使用說明6 = new JLabel("如需下載其他格式 請根據以下方式輸入所選擇的格式");
 	private JLabel 使用說明7 = new JLabel("格式選擇請填入youtube-dl 呼叫命令後之空格");
 	private JLabel 使用說明8 = new JLabel("-x → 只下載聲音");
-	private JLabel 使用說明9 = new JLabel("--list-formats → 列出所有影音格式");
+	private JLabel 使用說明9 = new JLabel("--list-formats  → 列出所有影音格式");
 	private JLabel 使用說明10 = new JLabel("--format  格式代碼   → 下載指定影音格式(如影像跟聲音分開 中間請用+連結)");
-	private JLabel 使用說明11 = new JLabel("--list-subs → 列出所有字幕格式");
+	private JLabel 使用說明11 = new JLabel("--list-subs  → 列出所有字幕格式");
 	private JLabel 使用說明12 = new JLabel("--sub-lang  語言代碼   → 下載指定字幕");
-	
+
 	
 	
 	////////////////////////////檔案儲存///////////////////
@@ -89,12 +96,17 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 			
 			/* 設定軟體圖示 */
 			ImageIcon img = new ImageIcon(getClass().getResource("/Resources/Pictures/icon_design.png"));
+			ImageIcon img2 = new ImageIcon(getClass().getResource("/Resources/Pictures/splash_design.png"));
 			frame.setIconImage(img.getImage());
+			版本圖片= new JLabel(img2);
+			this.setLayout(new BorderLayout()); 
+			this.add(版本圖片, BorderLayout.CENTER); 
 			
 			JPanel jpCenter = new JPanel();//創立主畫面容器
 			JPanel jpCenter2 = new JPanel();//創立介紹容器
 			JPanel jpCenter3 = new JPanel();//使用說明容器
 			jpCenter.setLayout(null);
+			jpCenter2.setLayout(null);
 			jpCenter3.setLayout(null);
 			
 			///////////////////////////加入頁籤///////////////////////////
@@ -108,21 +120,21 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 			媒體網址輸入框.setSize(new Dimension(800,30));
 			媒體網址輸入框.setLocation(100,0);
 			網址分析結果標籤.setSize(new Dimension(200,30));
-			網址分析結果標籤.setLocation(30,120);
+			網址分析結果標籤.setLocation(30,30);
 			媒體支援格式清單標籤.setSize(new Dimension(200,30));
-			媒體支援格式清單標籤.setLocation(30,150);
+			媒體支援格式清單標籤.setLocation(30,60);
 			媒體支援格式清單卷軸.setSize(new Dimension(200,150));
-			媒體支援格式清單卷軸.setLocation(30,180);
+			媒體支援格式清單卷軸.setLocation(30,90);
 			媒體支援格式清單卷軸.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 			媒體支援字幕語言清單標籤.setSize(new Dimension(200,30));
-			媒體支援字幕語言清單標籤.setLocation(240,150);
+			媒體支援字幕語言清單標籤.setLocation(240,60);
 			媒體支援字幕語言清單卷軸.setSize(new Dimension(200,150));
-			媒體支援字幕語言清單卷軸.setLocation(240,180);
+			媒體支援字幕語言清單卷軸.setLocation(240,90);
 			媒體支援字幕語言清單卷軸.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 			選擇媒體保存目錄標籤.setSize(new Dimension(200,30));
-			選擇媒體保存目錄標籤.setLocation(30,350);
+			選擇媒體保存目錄標籤.setLocation(30,260);
 			媒體保存目錄輸入框.setSize(new Dimension(600, 30));
-			媒體保存目錄輸入框.setLocation(97, 350);
+			媒體保存目錄輸入框.setLocation(97, 260);
 			try {
 				媒體保存目錄輸入框.setText(URLDecoder.decode(GUI.class.getProtectionDomain().getCodeSource().getLocation().getPath().toString(), "UTF-8"));
 			} catch (UnsupportedEncodingException e) {
@@ -130,42 +142,56 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 				e.printStackTrace();
 			}
 			選擇保存目錄按鈕.setSize(new Dimension(125,30));
-			選擇保存目錄按鈕.setLocation(770, 350);
+			選擇保存目錄按鈕.setLocation(770, 260);
 			呼叫命令標籤.setSize(new Dimension(200,30));
-			呼叫命令標籤.setLocation(30,400);
+			呼叫命令標籤.setLocation(30,310);
 			呼叫命令輸入框.setSize(new Dimension(600,30));
-			呼叫命令輸入框.setLocation(160,400);
+			呼叫命令輸入框.setLocation(160,310);
 			執行下載命令按鈕.setSize(new Dimension(75,30));
-			執行下載命令按鈕.setLocation(820, 400);
+			執行下載命令按鈕.setLocation(820, 310);
 			命令執行結果卷軸.setSize(new Dimension(865,200));
-			命令執行結果卷軸.setLocation(30, 450);
+			命令執行結果卷軸.setLocation(30, 360);
 			命令執行結果卷軸.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-			命令執行結果標籤.setSize(new Dimension(200,30));
-			命令執行結果標籤.setLocation(30,650);
+			版本圖片.setSize(new Dimension(500,200));
+			版本圖片.setLocation(30,20);
+			版本介紹.setSize(new Dimension(500,30));
+			版本介紹.setLocation(30,230);
+			版本網址.setSize(new Dimension(500,30));
+			版本網址.setLocation(30,260);
+			回報問題.setSize(new Dimension(500,30));
+			回報問題.setLocation(30,290);
+			回報網址.setSize(new Dimension(500,30));
+			回報網址.setLocation(30,320);
+			wiki.setSize(new Dimension(500,30));
+			wiki.setLocation(30,350);
+			wiki網址.setSize(new Dimension(500,30));
+			wiki網址.setLocation(30,380);
+			使用說明.setSize(new Dimension(700,30));
+			使用說明.setLocation(30,0);
 			使用說明1.setSize(new Dimension(500,30));
-			使用說明1.setLocation(30,0);
+			使用說明1.setLocation(30,30);
 			使用說明2.setSize(new Dimension(500,30));
-			使用說明2.setLocation(30,30);
+			使用說明2.setLocation(30,60);
 			使用說明3.setSize(new Dimension(500,30));
-			使用說明3.setLocation(30,60);
+			使用說明3.setLocation(30,90);
 			使用說明4.setSize(new Dimension(500,30));
-			使用說明4.setLocation(30,90);
+			使用說明4.setLocation(30,120);
 			使用說明5.setSize(new Dimension(500,30));
-			使用說明5.setLocation(30,120);
+			使用說明5.setLocation(30,150);
 			使用說明6.setSize(new Dimension(500,30));
-			使用說明6.setLocation(30,150);
+			使用說明6.setLocation(30,180);
 			使用說明7.setSize(new Dimension(500,30));
-			使用說明7.setLocation(30,180);
+			使用說明7.setLocation(30,210);
 			使用說明8.setSize(new Dimension(500,30));
-			使用說明8.setLocation(30,210);
+			使用說明8.setLocation(30,240);
 			使用說明9.setSize(new Dimension(500,30));
-			使用說明9.setLocation(30,240);
+			使用說明9.setLocation(30,270);
 			使用說明10.setSize(new Dimension(500,30));
-			使用說明10.setLocation(30,270);
+			使用說明10.setLocation(30,300);
 			使用說明11.setSize(new Dimension(500,30));
-			使用說明11.setLocation(30,300);
+			使用說明11.setLocation(30,330);
 			使用說明12.setSize(new Dimension(500,30));
-			使用說明12.setLocation(30,330);
+			使用說明12.setLocation(30,360);
 
 			/////////////////加入元件//////////////////////
 			jpCenter.add(媒體網址輸入框標籤); //將元件加入JPanel子容器
@@ -180,9 +206,16 @@ public class GUI extends JFrame implements ActionListener, ListSelectionListener
 			jpCenter.add(呼叫命令標籤);
 			jpCenter.add(選擇保存目錄按鈕);
 			jpCenter.add(執行下載命令按鈕);
-			jpCenter.add(命令執行結果標籤);
 			jpCenter.add(呼叫命令輸入框);
 			jpCenter.add(命令執行結果卷軸);
+			jpCenter2.add(版本圖片);
+			jpCenter2.add(版本介紹);
+			jpCenter2.add(版本網址);
+			jpCenter2.add(回報問題);
+			jpCenter2.add(回報網址);
+			jpCenter2.add(wiki);
+			jpCenter2.add(wiki網址);
+			jpCenter3.add(使用說明);
 			jpCenter3.add(使用說明1);
 			jpCenter3.add(使用說明2);
 			jpCenter3.add(使用說明3);
