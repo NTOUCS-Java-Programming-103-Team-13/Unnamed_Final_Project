@@ -12,8 +12,11 @@ The software has been released into public domain.
 */
 package tw.edu.ntou.cs.java_programming.semester1031.team13.youtube_dl_helper;
 import java.awt.BorderLayout;
+import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
@@ -64,12 +67,14 @@ public class GUI extends JFrame implements ActionListener{
 	private JList<String> 媒體支援字幕語言清單 = new JList<String>();
 	private JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄：");
 	private JTextField 媒體保存目錄輸入框 = new JTextField(512);
-	private JButton 選擇保存目錄按鈕 = new JButton("選擇‧‧‧‧‧");
+	private JButton 選擇保存目錄按鈕 = new JButton("選擇……");
 	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令：");
 	private JTextField 呼叫命令輸入框 = new JTextField(1024);
 	private JButton 執行下載命令按鈕 = new JButton("執行");
 	private JTextArea 命令執行結果 = new JTextArea();
 	private JLabel 命令執行結果標籤 = new JLabel("下載結果：");
+	private  JLabel 軟體名稱 = new JLabel("youtube-dl-helper，又一個非官方的 youtube-dl 圖形介面包裝程式");
+	private  JLabel 軟體網址 = new JLabel("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper");
 	////////////////////////////檔案儲存///////////////////
 	private JFileChooser savePathChooser = null;
 	////////////////////////////////////////////////////////
@@ -87,12 +92,18 @@ public class GUI extends JFrame implements ActionListener{
 			JPanel jpCenter = new JPanel();//創立主畫面容器
 			JPanel jpCenter2 = new JPanel();//創立介紹容器
 			jpCenter.setLayout(null);
+			jpCenter2.setLayout(new FlowLayout());
 			
 			///////////////////////////加入頁籤///////////////////////////
 			view.addTab("下載媒體",jpCenter);
 			view.addTab("關於本軟體",jpCenter2);
 			
 			/////////////////設定大小跟位置//////////////////////////
+			
+			軟體名稱.setSize(new Dimension(300,300));
+			軟體網址.setSize(new Dimension(300,300));
+			軟體網址.setLocation(60, 0);
+			軟體名稱.setLocation(30, 100);
 			媒體網址輸入框標籤.setSize(new Dimension(200,30));
 			媒體網址輸入框標籤.setLocation(30, 0);
 			媒體網址輸入框.setSize(new Dimension(800,30));
@@ -131,6 +142,8 @@ public class GUI extends JFrame implements ActionListener{
 			命令執行結果標籤.setLocation(30,650);
 
 			/////////////////加入元件//////////////////////
+			jpCenter2.add(軟體名稱);
+			jpCenter2.add(軟體網址);
 			jpCenter.add(媒體網址輸入框標籤); //將元件加入JPanel子容器
 			jpCenter.add(媒體網址輸入框);
 			jpCenter.add(網址分析結果標籤);
@@ -174,7 +187,7 @@ public class GUI extends JFrame implements ActionListener{
 	}
 
 	public void actionPerformed(ActionEvent event){//選擇影片保存的目錄（youtube-dl 下載命令的當前工作目錄）
-		if(event.getActionCommand().equals("選擇‧‧‧‧‧")){
+		if(event.getActionCommand().equals("選擇……")){
 			int result = savePathChooser.showSaveDialog(frame);
 
 			if(result==JFileChooser.APPROVE_OPTION){
