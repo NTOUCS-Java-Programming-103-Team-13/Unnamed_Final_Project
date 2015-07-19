@@ -7,16 +7,13 @@ This source code is part of "youtube-dl-helper" software
 	https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper
 
 @author 張仰鈞 <qqwwee2006@gmail.com>
+@author 林博仁 <Henry.Lin.Taiwan@gmail.com>
+@author 林夏媛 <dorislin8737@gmail.com>
 @copyright 
 The software has been released into public domain.
 */
 package tw.edu.ntou.cs.java_programming.semester1031.team13.youtube_dl_helper;
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.LayoutManager;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
@@ -30,28 +27,14 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import javax.swing.DefaultListModel;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JButton;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.ListSelectionModel;
-import javax.swing.JTabbedPane;
-import javax.swing.JTextField;
-import javax.swing.JFileChooser;
-import javax.swing.ScrollPaneConstants;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 /**
  * @brief GUI class
  */
-public class GUI extends JFrame implements ActionListener{
+public class GUI extends JFrame implements ActionListener, ListSelectionListener{
 	private static final long serialVersionUID = 1L;
 	
 	private JFrame frame = new JFrame();
@@ -60,21 +43,41 @@ public class GUI extends JFrame implements ActionListener{
 	/////////////////主畫面元件///////////////////////////
 	private JLabel 媒體網址輸入框標籤 = new JLabel("媒體網址 ：");
 	private JTextField 媒體網址輸入框 = new JTextField(100);
-	private JLabel 網址分析結果標籤 = new JLabel("網址分析結果：");
+	private JLabel 網址分析結果標籤 = new JLabel("媒體網址輸入範例：https://www.youtube.com/watch?v=iAy0tG56ZYg");
 	private JLabel 媒體支援格式清單標籤 = new JLabel("選擇下載格式：");
 	private JList<String> 媒體支援格式清單 = new JList<String>();
+	private JScrollPane 媒體支援格式清單卷軸 = new JScrollPane(媒體支援格式清單);
 	private JLabel 媒體支援字幕語言清單標籤 = new JLabel("選擇字幕語言：");
 	private JList<String> 媒體支援字幕語言清單 = new JList<String>();
+	private JScrollPane 媒體支援字幕語言清單卷軸 = new JScrollPane(媒體支援字幕語言清單);
 	private JLabel 選擇媒體保存目錄標籤 = new JLabel("保存目錄：");
 	private JTextField 媒體保存目錄輸入框 = new JTextField(512);
-	private JButton 選擇保存目錄按鈕 = new JButton("選擇……");
+	private JButton 選擇保存目錄按鈕 = new JButton("選擇‧‧‧‧‧");
 	private JLabel 呼叫命令標籤 = new JLabel("youtube-dl 呼叫命令：");
 	private JTextField 呼叫命令輸入框 = new JTextField(1024);
 	private JButton 執行下載命令按鈕 = new JButton("執行");
 	private JTextArea 命令執行結果 = new JTextArea();
-	private JLabel 命令執行結果標籤 = new JLabel("下載結果：");
-	private  JLabel 軟體名稱 = new JLabel("youtube-dl-helper，又一個非官方的 youtube-dl 圖形介面包裝程式");
-	private  JLabel 軟體網址 = new JLabel("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper");
+	private JScrollPane 命令執行結果卷軸 = new JScrollPane(命令執行結果);
+	private JLabel 版本圖片 = new JLabel();
+	private JLabel 版本介紹 = new JLabel("又一個非官方的 youtube-dl 圖形介面包裝程式");
+	private JLabel 版本網址 = new JLabel("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper");
+	private JLabel 回報問題 = new JLabel("回報問題: ");
+	private JLabel 回報網址 = new JLabel("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/issues");
+	private JLabel wiki = new JLabel("Wiki: ");
+	private JLabel wiki網址 = new JLabel("https://github.com/NTOUCS-Java-Programming-103-Team-13/youtube-dl-helper/wiki");
+	private JLabel 使用說明 = new JLabel("* 本軟體使用了 youtube-dl(http://rg3.github.io/youtube-dl) 軟體，使用前請先安裝 youtube-dl 讓 youtube-dl 可執行檔位於系統的可執行檔搜索路徑中（PATH 環境變數）");
+	private JLabel 使用說明1 = new JLabel("* 本軟體建議放大為全螢幕後使用");
+	private JLabel 使用說明2 = new JLabel("## 使用方式說明 ##");
+	private JLabel 使用說明3 = new JLabel("1. 將影片網址填入媒體網址輸入框後按下 Enter 稍候片刻，youtube-dl-helper 會擷取媒體的支援格式與字幕清單。");
+	private JLabel 使用說明4 = new JLabel("2. 於清單中選取您要下載的格式與字幕。");
+	private JLabel 使用說明5 = new JLabel("3. 選擇媒體保存目錄，預設下載目錄為 youtube-dl-helper 的當前工作目錄(current working directory(CWD))。");
+	private JLabel 使用說明6 = new JLabel("4. 如果需要設定額外 youtube-dl 命令列參數的話可於「youtube-dl 呼叫命令」輸入框中自行加入，按下「執行」就會開始下載媒體！");
+	private JLabel 使用說明7 = new JLabel("## youtube-dl 命令列參數簡介 ##");
+	private JLabel 使用說明8 = new JLabel("--list-formats → 列出所有影音格式");
+	private JLabel 使用說明9 = new JLabel("--format 〈格式代碼〉 → 下載指定代碼的影音格式");
+	private JLabel 使用說明10 = new JLabel("--list-subs → 列出所有字幕格式");
+	private JLabel 使用說明11 = new JLabel("--write-sub → 下載媒體字幕");
+	private JLabel 使用說明12 = new JLabel("--sub-lang 〈語言代碼〉 → 下載指定字幕");
 	////////////////////////////檔案儲存///////////////////
 	private JFileChooser savePathChooser = null;
 	////////////////////////////////////////////////////////
@@ -87,41 +90,45 @@ public class GUI extends JFrame implements ActionListener{
 			
 			/* 設定軟體圖示 */
 			ImageIcon img = new ImageIcon(getClass().getResource("/Resources/Pictures/icon_design.png"));
+			ImageIcon img2 = new ImageIcon(getClass().getResource("/Resources/Pictures/splash_design.png"));
 			frame.setIconImage(img.getImage());
+			版本圖片= new JLabel(img2);
+			this.setLayout(new BorderLayout()); 
+			this.add(版本圖片, BorderLayout.CENTER); 
 			
 			JPanel jpCenter = new JPanel();//創立主畫面容器
 			JPanel jpCenter2 = new JPanel();//創立介紹容器
+			JPanel jpCenter3 = new JPanel();//使用說明容器
 			jpCenter.setLayout(null);
-			jpCenter2.setLayout(new FlowLayout());
+			jpCenter2.setLayout(null);
+			jpCenter3.setLayout(null);
 			
 			///////////////////////////加入頁籤///////////////////////////
 			view.addTab("下載媒體",jpCenter);
 			view.addTab("關於本軟體",jpCenter2);
+			view.addTab("使用說明",jpCenter3);
 			
 			/////////////////設定大小跟位置//////////////////////////
-			
-			軟體名稱.setSize(new Dimension(300,300));
-			軟體網址.setSize(new Dimension(300,300));
-			軟體網址.setLocation(60, 0);
-			軟體名稱.setLocation(30, 100);
 			媒體網址輸入框標籤.setSize(new Dimension(200,30));
 			媒體網址輸入框標籤.setLocation(30, 0);
 			媒體網址輸入框.setSize(new Dimension(800,30));
-			媒體網址輸入框.setLocation(95,0);
-			網址分析結果標籤.setSize(new Dimension(200,30));
-			網址分析結果標籤.setLocation(30,120);
+			媒體網址輸入框.setLocation(100,0);
+			網址分析結果標籤.setSize(new Dimension(800,30));
+			網址分析結果標籤.setLocation(30,30);
 			媒體支援格式清單標籤.setSize(new Dimension(200,30));
-			媒體支援格式清單標籤.setLocation(30,150);
-			媒體支援格式清單.setSize(new Dimension(200,150));
-			媒體支援格式清單.setLocation(30,180);
+			媒體支援格式清單標籤.setLocation(30,60);
+			媒體支援格式清單卷軸.setSize(new Dimension(200,150));
+			媒體支援格式清單卷軸.setLocation(30,90);
+			媒體支援格式清單卷軸.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 			媒體支援字幕語言清單標籤.setSize(new Dimension(200,30));
-			媒體支援字幕語言清單標籤.setLocation(240,150);
-			媒體支援字幕語言清單.setSize(new Dimension(200,150));
-			媒體支援字幕語言清單.setLocation(240,180);
+			媒體支援字幕語言清單標籤.setLocation(240,60);
+			媒體支援字幕語言清單卷軸.setSize(new Dimension(200,150));
+			媒體支援字幕語言清單卷軸.setLocation(240,90);
+			媒體支援字幕語言清單卷軸.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 			選擇媒體保存目錄標籤.setSize(new Dimension(200,30));
-			選擇媒體保存目錄標籤.setLocation(30,350);
+			選擇媒體保存目錄標籤.setLocation(30,260);
 			媒體保存目錄輸入框.setSize(new Dimension(600, 30));
-			媒體保存目錄輸入框.setLocation(120, 350);
+			媒體保存目錄輸入框.setLocation(97, 260);
 			try {
 				媒體保存目錄輸入框.setText(URLDecoder.decode(GUI.class.getProtectionDomain().getCodeSource().getLocation().getPath().toString(), "UTF-8"));
 			} catch (UnsupportedEncodingException e) {
@@ -129,36 +136,92 @@ public class GUI extends JFrame implements ActionListener{
 				e.printStackTrace();
 			}
 			選擇保存目錄按鈕.setSize(new Dimension(125,30));
-			選擇保存目錄按鈕.setLocation(770, 350);
+			選擇保存目錄按鈕.setLocation(770, 260);
 			呼叫命令標籤.setSize(new Dimension(200,30));
-			呼叫命令標籤.setLocation(30,400);
+			呼叫命令標籤.setLocation(30,310);
 			呼叫命令輸入框.setSize(new Dimension(600,30));
-			呼叫命令輸入框.setLocation(150,400);
+			呼叫命令輸入框.setLocation(160,310);
 			執行下載命令按鈕.setSize(new Dimension(75,30));
-			執行下載命令按鈕.setLocation(820, 400);
-			命令執行結果.setSize(new Dimension(865,200));
-			命令執行結果.setLocation(30, 450);
-			命令執行結果標籤.setSize(new Dimension(200,30));
-			命令執行結果標籤.setLocation(30,650);
+			執行下載命令按鈕.setLocation(820, 310);
+			命令執行結果卷軸.setSize(new Dimension(865,200));
+			命令執行結果卷軸.setLocation(30, 360);
+			命令執行結果卷軸.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+			版本圖片.setSize(new Dimension(500,200));
+			版本圖片.setLocation(30,20);
+			版本介紹.setSize(new Dimension(500,30));
+			版本介紹.setLocation(30,230);
+			版本網址.setSize(new Dimension(500,30));
+			版本網址.setLocation(30,260);
+			回報問題.setSize(new Dimension(500,30));
+			回報問題.setLocation(30,290);
+			回報網址.setSize(new Dimension(500,30));
+			回報網址.setLocation(30,320);
+			wiki.setSize(new Dimension(500,30));
+			wiki.setLocation(30,350);
+			wiki網址.setSize(new Dimension(500,30));
+			wiki網址.setLocation(30,380);
+			使用說明.setSize(new Dimension(1000,30));
+			使用說明.setLocation(30,0);
+			使用說明1.setSize(new Dimension(1000,30));
+			使用說明1.setLocation(30,30);
+			使用說明2.setSize(new Dimension(1000,30));
+			使用說明2.setLocation(30,60);
+			使用說明3.setSize(new Dimension(1000,30));
+			使用說明3.setLocation(30,90);
+			使用說明4.setSize(new Dimension(1000,30));
+			使用說明4.setLocation(30,120);
+			使用說明5.setSize(new Dimension(1000,30));
+			使用說明5.setLocation(30,150);
+			使用說明6.setSize(new Dimension(1000,30));
+			使用說明6.setLocation(30,180);
+			使用說明7.setSize(new Dimension(1000,30));
+			使用說明7.setLocation(30,210);
+			使用說明8.setSize(new Dimension(1000,30));
+			使用說明8.setLocation(30,240);
+			使用說明9.setSize(new Dimension(1000,30));
+			使用說明9.setLocation(30,270);
+			使用說明10.setSize(new Dimension(500,30));
+			使用說明10.setLocation(30,300);
+			使用說明11.setSize(new Dimension(500,30));
+			使用說明11.setLocation(30,330);
+			使用說明12.setSize(new Dimension(500,30));
+			使用說明12.setLocation(30,360);
 
 			/////////////////加入元件//////////////////////
-			jpCenter2.add(軟體名稱);
-			jpCenter2.add(軟體網址);
 			jpCenter.add(媒體網址輸入框標籤); //將元件加入JPanel子容器
 			jpCenter.add(媒體網址輸入框);
 			jpCenter.add(網址分析結果標籤);
 			jpCenter.add(媒體支援格式清單標籤);
-			jpCenter.add(媒體支援格式清單);
+			jpCenter.add(媒體支援格式清單卷軸);
 			jpCenter.add(媒體支援字幕語言清單標籤);
-			jpCenter.add(媒體支援字幕語言清單);
+			jpCenter.add(媒體支援字幕語言清單卷軸);
 			jpCenter.add(選擇媒體保存目錄標籤);
 			jpCenter.add(媒體保存目錄輸入框);
 			jpCenter.add(呼叫命令標籤);
 			jpCenter.add(選擇保存目錄按鈕);
 			jpCenter.add(執行下載命令按鈕);
-			jpCenter.add(命令執行結果標籤);
 			jpCenter.add(呼叫命令輸入框);
-			jpCenter.add(命令執行結果);
+			jpCenter.add(命令執行結果卷軸);
+			jpCenter2.add(版本圖片);
+			jpCenter2.add(版本介紹);
+			jpCenter2.add(版本網址);
+			jpCenter2.add(回報問題);
+			jpCenter2.add(回報網址);
+			jpCenter2.add(wiki);
+			jpCenter2.add(wiki網址);
+			jpCenter3.add(使用說明);
+			jpCenter3.add(使用說明1);
+			jpCenter3.add(使用說明2);
+			jpCenter3.add(使用說明3);
+			jpCenter3.add(使用說明4);
+			jpCenter3.add(使用說明5);
+			jpCenter3.add(使用說明6);
+			jpCenter3.add(使用說明7);
+			jpCenter3.add(使用說明8);
+			jpCenter3.add(使用說明9);
+			jpCenter3.add(使用說明10);
+			jpCenter3.add(使用說明11);
+			jpCenter3.add(使用說明12);
 
 			
 			媒體網址輸入框.addActionListener((ActionListener) this);
@@ -184,10 +247,11 @@ public class GUI extends JFrame implements ActionListener{
 			setLocation(dim.width/2 - getWidth()/2, dim.height/2 - getHeight()/2);//設定視窗顯示在螢幕的中央
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//設定按下視窗右上角關閉按鈕將關閉視窗並結束應用程式的執行
 			setVisible(true); //顯示視窗
+			
 	}
 
 	public void actionPerformed(ActionEvent event){//選擇影片保存的目錄（youtube-dl 下載命令的當前工作目錄）
-		if(event.getActionCommand().equals("選擇……")){
+		if(event.getActionCommand().equals("選擇‧‧‧‧‧")){
 			int result = savePathChooser.showSaveDialog(frame);
 
 			if(result==JFileChooser.APPROVE_OPTION){
@@ -205,6 +269,7 @@ public class GUI extends JFrame implements ActionListener{
 			}
 			媒體支援格式清單.setModel(formatlistModel);
 			媒體支援格式清單.setVisible(true);
+			媒體支援格式清單.addListSelectionListener((ListSelectionListener) this);
 			
 			supported_sub_languages = YoutubeDlParser.getMediaSupportedSubtitles(媒體網址輸入框.getText());
 			DefaultListModel<String> sublistModel = new DefaultListModel<String>();
@@ -213,12 +278,16 @@ public class GUI extends JFrame implements ActionListener{
 			}
 			媒體支援字幕語言清單.setModel(sublistModel);
 			媒體支援字幕語言清單.setVisible(true);
+			媒體支援字幕語言清單.addListSelectionListener((ListSelectionListener) this);
+			
+			呼叫命令輸入框.setText("youtube-dl " + 媒體網址輸入框.getText());
+			
 		}
 
   		if(event.getActionCommand().equals("執行")){
   			Process youtube_dl_process;
   			try {
-  				youtube_dl_process = Runtime.getRuntime().exec("youtube-dl " + 媒體網址輸入框.getText());
+  				youtube_dl_process = Runtime.getRuntime().exec(呼叫命令輸入框.getText());
   				String line;
   				InputStream youtube_dl_process_standard_output = youtube_dl_process.getInputStream();
   				BufferedReader youtube_dl_output_reader = new BufferedReader (new InputStreamReader(youtube_dl_process_standard_output));
@@ -233,8 +302,11 @@ public class GUI extends JFrame implements ActionListener{
   				e.printStackTrace();
   			}
   		}
-
-
+	}
+	
+	public void valueChanged(ListSelectionEvent event){
+		System.out.println(event.toString());
+		return;
 	}
 
 	public JFrame getFrame() {
